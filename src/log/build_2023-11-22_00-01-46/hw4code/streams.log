@@ -1,0 +1,30 @@
+[8.369s] Invoking command in '/home/ubuntu/host/src/build/hw4code': PYTHONPATH=/home/ubuntu/host/src/build/hw4code/prefix_override:/home/ubuntu/host/src/install/hw4code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw4code/build --no-deps install_data
+[14.032s] running develop
+[14.033s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[14.045s]   warnings.warn(
+[14.083s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[14.088s]   warnings.warn(
+[16.789s] running egg_info
+[16.824s] creating hw4code.egg-info
+[16.839s] writing hw4code.egg-info/PKG-INFO
+[16.971s] writing dependency_links to hw4code.egg-info/dependency_links.txt
+[17.043s] writing entry points to hw4code.egg-info/entry_points.txt
+[17.079s] writing requirements to hw4code.egg-info/requires.txt
+[17.107s] writing top-level names to hw4code.egg-info/top_level.txt
+[17.158s] writing manifest file 'hw4code.egg-info/SOURCES.txt'
+[18.773s] reading manifest file 'hw4code.egg-info/SOURCES.txt'
+[18.872s] writing manifest file 'hw4code.egg-info/SOURCES.txt'
+[18.932s] running build_ext
+[18.943s] Creating /home/ubuntu/host/src/install/hw4code/lib/python3.10/site-packages/hw4code.egg-link (link to .)
+[19.104s] 
+[19.105s] Installed /home/ubuntu/host/src/build/hw4code
+[19.121s] running install_data
+[19.156s] creating /home/ubuntu/host/src/install/hw4code/share/ament_index
+[19.233s] creating /home/ubuntu/host/src/install/hw4code/share/ament_index/resource_index
+[19.305s] creating /home/ubuntu/host/src/install/hw4code/share/ament_index/resource_index/packages
+[19.338s] copying resource/hw4code -> /home/ubuntu/host/src/install/hw4code/share/ament_index/resource_index/packages
+[19.459s] copying package.xml -> /home/ubuntu/host/src/install/hw4code/share/hw4code
+[19.568s] creating /home/ubuntu/host/src/install/hw4code/share/hw4code/urdf
+[19.575s] copying urdf/fourDOFskeleton.urdf -> /home/ubuntu/host/src/install/hw4code/share/hw4code/urdf
+[19.682s] copying urdf/testrobot.urdf -> /home/ubuntu/host/src/install/hw4code/share/hw4code/urdf
+[19.944s] Invoked command in '/home/ubuntu/host/src/build/hw4code' returned '0': PYTHONPATH=/home/ubuntu/host/src/build/hw4code/prefix_override:/home/ubuntu/host/src/install/hw4code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw4code/build --no-deps install_data

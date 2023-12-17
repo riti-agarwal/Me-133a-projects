@@ -1,0 +1,1053 @@
+[0.000000] (-) TimerEvent: {}
+[0.005392] (atlas_description) JobQueued: {'identifier': 'atlas_description', 'dependencies': OrderedDict()}
+[0.006104] (hw3code) JobQueued: {'identifier': 'hw3code', 'dependencies': OrderedDict()}
+[0.006377] (hw4code) JobQueued: {'identifier': 'hw4code', 'dependencies': OrderedDict()}
+[0.011116] (hw5code) JobQueued: {'identifier': 'hw5code', 'dependencies': OrderedDict()}
+[0.018734] (hw6code) JobQueued: {'identifier': 'hw6code', 'dependencies': OrderedDict()}
+[0.020969] (hw7code) JobQueued: {'identifier': 'hw7code', 'dependencies': OrderedDict()}
+[0.021795] (atlas_description) JobStarted: {'identifier': 'atlas_description'}
+[0.068975] (-) TimerEvent: {}
+[0.176039] (-) TimerEvent: {}
+[0.264057] (hw3code) JobStarted: {'identifier': 'hw3code'}
+[0.277439] (-) TimerEvent: {}
+[0.381358] (-) TimerEvent: {}
+[0.484585] (-) TimerEvent: {}
+[0.594383] (-) TimerEvent: {}
+[0.706570] (-) TimerEvent: {}
+[0.775735] (hw4code) JobStarted: {'identifier': 'hw4code'}
+[0.810142] (-) TimerEvent: {}
+[0.915490] (-) TimerEvent: {}
+[1.020274] (-) TimerEvent: {}
+[1.125004] (-) TimerEvent: {}
+[1.241608] (-) TimerEvent: {}
+[1.339799] (atlas_description) JobProgress: {'identifier': 'atlas_description', 'progress': 'cmake'}
+[1.344789] (-) TimerEvent: {}
+[1.388624] (atlas_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/host/src/atlas_description/atlas_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/host/src/install/atlas_description'], 'cwd': '/home/ubuntu/host/src/build/atlas_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '3310'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/robotws'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '6943'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/ubuntu/robotws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/primary:@/tmp/.ICE-unix/3452,unix/primary:/tmp/.ICE-unix/3452'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4d664f7_34f2_4d1d_9d53_2850a946d6a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/home/ubuntu/robotws/install/atlas_description:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/host/src/build/atlas_description'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/robotws/build/hw7code:/home/ubuntu/robotws/install/hw7code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw6code:/home/ubuntu/robotws/install/hw6code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw5code:/home/ubuntu/robotws/install/hw5code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw4code:/home/ubuntu/robotws/install/hw4code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw3code:/home/ubuntu/robotws/install/hw3code/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/robotws/install/atlas_description:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble')]), 'shell': False}
+[1.482716] (-) TimerEvent: {}
+[1.586271] (-) TimerEvent: {}
+[1.688433] (-) TimerEvent: {}
+[1.791989] (-) TimerEvent: {}
+[1.897510] (-) TimerEvent: {}
+[2.003242] (-) TimerEvent: {}
+[2.106592] (-) TimerEvent: {}
+[2.211444] (-) TimerEvent: {}
+[2.313903] (-) TimerEvent: {}
+[2.416664] (-) TimerEvent: {}
+[2.520738] (-) TimerEvent: {}
+[2.622530] (-) TimerEvent: {}
+[2.730623] (-) TimerEvent: {}
+[2.833760] (-) TimerEvent: {}
+[2.935657] (-) TimerEvent: {}
+[3.043359] (-) TimerEvent: {}
+[3.171083] (-) TimerEvent: {}
+[3.306752] (-) TimerEvent: {}
+[3.420004] (-) TimerEvent: {}
+[3.527301] (-) TimerEvent: {}
+[3.541303] (atlas_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.547434] (atlas_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.618141] (atlas_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.627723] (-) TimerEvent: {}
+[3.730593] (-) TimerEvent: {}
+[3.835666] (-) TimerEvent: {}
+[3.938053] (-) TimerEvent: {}
+[4.041399] (-) TimerEvent: {}
+[4.145815] (-) TimerEvent: {}
+[4.248179] (-) TimerEvent: {}
+[4.350263] (-) TimerEvent: {}
+[4.455569] (-) TimerEvent: {}
+[4.557145] (-) TimerEvent: {}
+[4.661178] (-) TimerEvent: {}
+[4.774465] (-) TimerEvent: {}
+[4.877985] (-) TimerEvent: {}
+[4.980940] (-) TimerEvent: {}
+[5.098057] (-) TimerEvent: {}
+[5.222931] (-) TimerEvent: {}
+[5.361401] (-) TimerEvent: {}
+[5.469648] (-) TimerEvent: {}
+[5.492218] (atlas_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.574650] (-) TimerEvent: {}
+[5.633860] (atlas_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.640041] (atlas_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.641819] (atlas_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.674207] (-) TimerEvent: {}
+[5.783265] (-) TimerEvent: {}
+[5.833865] (atlas_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.885068] (-) TimerEvent: {}
+[5.986984] (-) TimerEvent: {}
+[6.088674] (-) TimerEvent: {}
+[6.189737] (-) TimerEvent: {}
+[6.291018] (-) TimerEvent: {}
+[6.394954] (-) TimerEvent: {}
+[6.497163] (-) TimerEvent: {}
+[6.599045] (-) TimerEvent: {}
+[6.700456] (-) TimerEvent: {}
+[6.802324] (-) TimerEvent: {}
+[6.905249] (-) TimerEvent: {}
+[7.006951] (-) TimerEvent: {}
+[7.108959] (-) TimerEvent: {}
+[7.214019] (-) TimerEvent: {}
+[7.318180] (-) TimerEvent: {}
+[7.426390] (-) TimerEvent: {}
+[7.533309] (-) TimerEvent: {}
+[7.637487] (-) TimerEvent: {}
+[7.744116] (-) TimerEvent: {}
+[7.846780] (-) TimerEvent: {}
+[7.967301] (-) TimerEvent: {}
+[8.069695] (atlas_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.070369] (-) TimerEvent: {}
+[8.167063] (atlas_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.167729] (atlas_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.168311] (atlas_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.173764] (-) TimerEvent: {}
+[8.300140] (-) TimerEvent: {}
+[8.405474] (atlas_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.406282] (-) TimerEvent: {}
+[8.509971] (-) TimerEvent: {}
+[8.614794] (-) TimerEvent: {}
+[8.718507] (-) TimerEvent: {}
+[8.821180] (-) TimerEvent: {}
+[8.930382] (-) TimerEvent: {}
+[9.006063] (hw4code) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/host/src/build/hw4code/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/host/src/build/hw4code', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '3310', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/robotws', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '6943', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/ubuntu/robotws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/primary:@/tmp/.ICE-unix/3452,unix/primary:/tmp/.ICE-unix/3452', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a4d664f7_34f2_4d1d_9d53_2850a946d6a8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.135', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/home/ubuntu/robotws/install/atlas_description:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/host/src/build/hw4code', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/host/src/build/hw4code/prefix_override:/home/ubuntu/host/src/install/hw4code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw7code:/home/ubuntu/robotws/install/hw7code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw6code:/home/ubuntu/robotws/install/hw6code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw5code:/home/ubuntu/robotws/install/hw5code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw4code:/home/ubuntu/robotws/install/hw4code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw3code:/home/ubuntu/robotws/install/hw3code/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/robotws/install/atlas_description'}, 'shell': False}
+[9.149609] (-) TimerEvent: {}
+[9.250948] (-) TimerEvent: {}
+[9.293231] (atlas_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[9.355179] (-) TimerEvent: {}
+[9.458701] (-) TimerEvent: {}
+[9.562391] (-) TimerEvent: {}
+[9.666127] (-) TimerEvent: {}
+[9.690295] (hw3code) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/host/src/build/hw3code/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/host/src/build/hw3code', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '3310', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/robotws', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '6943', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/ubuntu/robotws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/primary:@/tmp/.ICE-unix/3452,unix/primary:/tmp/.ICE-unix/3452', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a4d664f7_34f2_4d1d_9d53_2850a946d6a8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.135', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/home/ubuntu/robotws/install/atlas_description:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/host/src/build/hw3code', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/host/src/build/hw3code/prefix_override:/home/ubuntu/host/src/install/hw3code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw7code:/home/ubuntu/robotws/install/hw7code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw6code:/home/ubuntu/robotws/install/hw6code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw5code:/home/ubuntu/robotws/install/hw5code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw4code:/home/ubuntu/robotws/install/hw4code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw3code:/home/ubuntu/robotws/install/hw3code/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/robotws/install/atlas_description'}, 'shell': False}
+[9.855993] (-) TimerEvent: {}
+[9.959164] (-) TimerEvent: {}
+[10.061201] (-) TimerEvent: {}
+[10.165197] (-) TimerEvent: {}
+[10.205513] (atlas_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.266099] (-) TimerEvent: {}
+[10.372641] (-) TimerEvent: {}
+[10.503008] (-) TimerEvent: {}
+[10.614186] (-) TimerEvent: {}
+[10.717440] (-) TimerEvent: {}
+[10.819467] (-) TimerEvent: {}
+[10.923408] (-) TimerEvent: {}
+[11.051526] (-) TimerEvent: {}
+[11.160958] (-) TimerEvent: {}
+[11.264447] (-) TimerEvent: {}
+[11.368905] (-) TimerEvent: {}
+[11.474158] (-) TimerEvent: {}
+[11.605695] (-) TimerEvent: {}
+[11.708186] (-) TimerEvent: {}
+[11.811547] (-) TimerEvent: {}
+[11.919212] (-) TimerEvent: {}
+[12.022479] (-) TimerEvent: {}
+[12.151806] (-) TimerEvent: {}
+[12.257435] (-) TimerEvent: {}
+[12.361402] (-) TimerEvent: {}
+[12.463855] (-) TimerEvent: {}
+[12.567835] (-) TimerEvent: {}
+[12.672762] (-) TimerEvent: {}
+[12.794314] (-) TimerEvent: {}
+[12.898947] (-) TimerEvent: {}
+[13.001988] (-) TimerEvent: {}
+[13.104744] (-) TimerEvent: {}
+[13.208854] (-) TimerEvent: {}
+[13.315985] (-) TimerEvent: {}
+[13.406333] (atlas_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.441930] (-) TimerEvent: {}
+[13.558071] (-) TimerEvent: {}
+[13.660937] (-) TimerEvent: {}
+[13.764555] (-) TimerEvent: {}
+[13.868532] (-) TimerEvent: {}
+[13.971265] (-) TimerEvent: {}
+[14.074932] (-) TimerEvent: {}
+[14.195776] (-) TimerEvent: {}
+[14.298901] (-) TimerEvent: {}
+[14.403350] (-) TimerEvent: {}
+[14.507030] (-) TimerEvent: {}
+[14.618151] (-) TimerEvent: {}
+[14.722263] (-) TimerEvent: {}
+[14.808669] (hw4code) StdoutLine: {'line': b'running develop\n'}
+[14.810921] (hw4code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.813156] (hw4code) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.824115] (-) TimerEvent: {}
+[14.858229] (hw4code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.862405] (hw4code) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.941246] (-) TimerEvent: {}
+[15.048299] (-) TimerEvent: {}
+[15.054198] (hw3code) StdoutLine: {'line': b'running develop\n'}
+[15.059479] (hw3code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[15.061968] (hw3code) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.067087] (hw3code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[15.068822] (hw3code) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.150800] (-) TimerEvent: {}
+[15.252759] (-) TimerEvent: {}
+[15.354821] (-) TimerEvent: {}
+[15.460715] (-) TimerEvent: {}
+[15.564534] (-) TimerEvent: {}
+[15.670609] (-) TimerEvent: {}
+[15.773170] (-) TimerEvent: {}
+[15.887889] (-) TimerEvent: {}
+[15.995238] (-) TimerEvent: {}
+[16.099117] (-) TimerEvent: {}
+[16.201397] (-) TimerEvent: {}
+[16.303713] (-) TimerEvent: {}
+[16.405497] (-) TimerEvent: {}
+[16.506946] (-) TimerEvent: {}
+[16.617992] (-) TimerEvent: {}
+[16.720939] (-) TimerEvent: {}
+[16.822297] (-) TimerEvent: {}
+[16.924578] (-) TimerEvent: {}
+[17.036863] (-) TimerEvent: {}
+[17.086838] (hw3code) StdoutLine: {'line': b'running egg_info\n'}
+[17.137247] (-) TimerEvent: {}
+[17.241099] (-) TimerEvent: {}
+[17.349584] (-) TimerEvent: {}
+[17.454849] (-) TimerEvent: {}
+[17.555707] (hw3code) StdoutLine: {'line': b'creating hw3code.egg-info\n'}
+[17.562713] (-) TimerEvent: {}
+[17.566859] (hw4code) StdoutLine: {'line': b'running egg_info\n'}
+[17.567849] (hw4code) StdoutLine: {'line': b'creating hw4code.egg-info\n'}
+[17.613719] (hw4code) StdoutLine: {'line': b'writing hw4code.egg-info/PKG-INFO\n'}
+[17.618081] (hw3code) StdoutLine: {'line': b'writing hw3code.egg-info/PKG-INFO\n'}
+[17.663567] (-) TimerEvent: {}
+[17.739015] (hw3code) StdoutLine: {'line': b'writing dependency_links to hw3code.egg-info/dependency_links.txt\n'}
+[17.746973] (hw4code) StdoutLine: {'line': b'writing dependency_links to hw4code.egg-info/dependency_links.txt\n'}
+[17.775017] (-) TimerEvent: {}
+[17.812109] (hw4code) StdoutLine: {'line': b'writing entry points to hw4code.egg-info/entry_points.txt\n'}
+[17.821440] (hw3code) StdoutLine: {'line': b'writing entry points to hw3code.egg-info/entry_points.txt\n'}
+[17.855591] (hw4code) StdoutLine: {'line': b'writing requirements to hw4code.egg-info/requires.txt\n'}
+[17.857570] (hw3code) StdoutLine: {'line': b'writing requirements to hw3code.egg-info/requires.txt\n'}
+[17.873898] (hw4code) StdoutLine: {'line': b'writing top-level names to hw4code.egg-info/top_level.txt\n'}
+[17.885584] (-) TimerEvent: {}
+[17.895372] (hw3code) StdoutLine: {'line': b'writing top-level names to hw3code.egg-info/top_level.txt\n'}
+[17.924221] (hw4code) StdoutLine: {'line': b"writing manifest file 'hw4code.egg-info/SOURCES.txt'\n"}
+[17.939261] (hw3code) StdoutLine: {'line': b"writing manifest file 'hw3code.egg-info/SOURCES.txt'\n"}
+[17.989651] (-) TimerEvent: {}
+[18.093010] (-) TimerEvent: {}
+[18.166591] (atlas_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[18.194904] (-) TimerEvent: {}
+[18.298186] (-) TimerEvent: {}
+[18.404076] (-) TimerEvent: {}
+[18.508921] (-) TimerEvent: {}
+[18.613850] (-) TimerEvent: {}
+[18.716678] (-) TimerEvent: {}
+[18.821856] (-) TimerEvent: {}
+[18.935646] (-) TimerEvent: {}
+[19.040593] (-) TimerEvent: {}
+[19.147969] (-) TimerEvent: {}
+[19.237663] (atlas_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.249629] (-) TimerEvent: {}
+[19.352226] (-) TimerEvent: {}
+[19.384062] (atlas_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[19.453679] (-) TimerEvent: {}
+[19.547932] (hw4code) StdoutLine: {'line': b"reading manifest file 'hw4code.egg-info/SOURCES.txt'\n"}
+[19.555278] (-) TimerEvent: {}
+[19.620515] (hw3code) StdoutLine: {'line': b"reading manifest file 'hw3code.egg-info/SOURCES.txt'\n"}
+[19.646232] (hw4code) StdoutLine: {'line': b"writing manifest file 'hw4code.egg-info/SOURCES.txt'\n"}
+[19.657607] (-) TimerEvent: {}
+[19.687724] (hw3code) StdoutLine: {'line': b"writing manifest file 'hw3code.egg-info/SOURCES.txt'\n"}
+[19.708679] (hw4code) StdoutLine: {'line': b'running build_ext\n'}
+[19.720707] (hw4code) StdoutLine: {'line': b'Creating /home/ubuntu/host/src/install/hw4code/lib/python3.10/site-packages/hw4code.egg-link (link to .)\n'}
+[19.759009] (-) TimerEvent: {}
+[19.766087] (hw3code) StdoutLine: {'line': b'running build_ext\n'}
+[19.769550] (hw3code) StdoutLine: {'line': b'Creating /home/ubuntu/host/src/install/hw3code/lib/python3.10/site-packages/hw3code.egg-link (link to .)\n'}
+[19.841175] (atlas_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.862013] (-) TimerEvent: {}
+[19.873770] (hw4code) StdoutLine: {'line': b'\n'}
+[19.883471] (hw4code) StdoutLine: {'line': b'Installed /home/ubuntu/host/src/build/hw4code\n'}
+[19.886273] (hw3code) StdoutLine: {'line': b'Installing hw3p4 script to /home/ubuntu/host/src/install/hw3code/lib/hw3code\n'}
+[19.895229] (hw4code) StdoutLine: {'line': b'running install_data\n'}
+[19.921388] (hw4code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw4code/share/ament_index\n'}
+[19.968086] (hw4code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw4code/share/ament_index/resource_index\n'}
+[20.011803] (-) TimerEvent: {}
+[20.083232] (hw3code) StdoutLine: {'line': b'Installing hw3p5 script to /home/ubuntu/host/src/install/hw3code/lib/hw3code\n'}
+[20.083846] (hw4code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw4code/share/ament_index/resource_index/packages\n'}
+[20.116191] (hw4code) StdoutLine: {'line': b'copying resource/hw4code -> /home/ubuntu/host/src/install/hw4code/share/ament_index/resource_index/packages\n'}
+[20.116805] (-) TimerEvent: {}
+[20.202208] (hw3code) StdoutLine: {'line': b'\n'}
+[20.202748] (hw3code) StdoutLine: {'line': b'Installed /home/ubuntu/host/src/build/hw3code\n'}
+[20.207934] (hw3code) StdoutLine: {'line': b'running install_data\n'}
+[20.221467] (-) TimerEvent: {}
+[20.237223] (hw4code) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/host/src/install/hw4code/share/hw4code\n'}
+[20.242364] (hw3code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw3code/share/ament_index\n'}
+[20.257679] (hw3code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw3code/share/ament_index/resource_index\n'}
+[20.282036] (hw3code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw3code/share/ament_index/resource_index/packages\n'}
+[20.317395] (hw3code) StdoutLine: {'line': b'copying resource/hw3code -> /home/ubuntu/host/src/install/hw3code/share/ament_index/resource_index/packages\n'}
+[20.322830] (-) TimerEvent: {}
+[20.335470] (hw4code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw4code/share/hw4code/urdf\n'}
+[20.353135] (hw4code) StdoutLine: {'line': b'copying urdf/fourDOFskeleton.urdf -> /home/ubuntu/host/src/install/hw4code/share/hw4code/urdf\n'}
+[20.437604] (hw3code) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/host/src/install/hw3code/share/hw3code\n'}
+[20.442773] (-) TimerEvent: {}
+[20.457208] (hw4code) StdoutLine: {'line': b'copying urdf/testrobot.urdf -> /home/ubuntu/host/src/install/hw4code/share/hw4code/urdf\n'}
+[20.521270] (hw3code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw3code/share/hw3code/rviz\n'}
+[20.548932] (-) TimerEvent: {}
+[20.553736] (hw3code) StdoutLine: {'line': b'copying rviz/viewatlas.rviz -> /home/ubuntu/host/src/install/hw3code/share/hw3code/rviz\n'}
+[20.638651] (hw3code) StdoutLine: {'line': b'copying rviz/viewurdf.rviz -> /home/ubuntu/host/src/install/hw3code/share/hw3code/rviz\n'}
+[20.651248] (-) TimerEvent: {}
+[20.706621] (hw3code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw3code/share/hw3code/urdf\n'}
+[20.721290] (hw4code) CommandEnded: {'returncode': 0}
+[20.754347] (-) TimerEvent: {}
+[20.783758] (hw3code) StdoutLine: {'line': b'copying urdf/pantilt.urdf -> /home/ubuntu/host/src/install/hw3code/share/hw3code/urdf\n'}
+[20.857664] (-) TimerEvent: {}
+[20.900336] (atlas_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.912209] (hw3code) StdoutLine: {'line': b'copying urdf/threeDOF.urdf -> /home/ubuntu/host/src/install/hw3code/share/hw3code/urdf\n'}
+[20.966482] (-) TimerEvent: {}
+[21.081450] (-) TimerEvent: {}
+[21.186322] (-) TimerEvent: {}
+[21.293163] (-) TimerEvent: {}
+[21.402499] (-) TimerEvent: {}
+[21.505635] (-) TimerEvent: {}
+[21.609594] (-) TimerEvent: {}
+[21.719568] (-) TimerEvent: {}
+[21.882513] (-) TimerEvent: {}
+[21.987923] (-) TimerEvent: {}
+[22.106049] (-) TimerEvent: {}
+[22.210482] (-) TimerEvent: {}
+[22.313046] (-) TimerEvent: {}
+[22.415759] (-) TimerEvent: {}
+[22.522091] (-) TimerEvent: {}
+[22.533641] (hw4code) JobEnded: {'identifier': 'hw4code', 'rc': 0}
+[22.601063] (hw5code) JobStarted: {'identifier': 'hw5code'}
+[22.623296] (-) TimerEvent: {}
+[22.728960] (-) TimerEvent: {}
+[22.831585] (-) TimerEvent: {}
+[22.931323] (atlas_description) StdoutLine: {'line': b'-- Generating done\n'}
+[22.939596] (-) TimerEvent: {}
+[23.134478] (-) TimerEvent: {}
+[23.238798] (-) TimerEvent: {}
+[23.341883] (-) TimerEvent: {}
+[23.353981] (atlas_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/host/src/build/atlas_description\n'}
+[23.401747] (hw3code) CommandEnded: {'returncode': 0}
+[23.445133] (-) TimerEvent: {}
+[23.555989] (-) TimerEvent: {}
+[23.667540] (-) TimerEvent: {}
+[23.779329] (-) TimerEvent: {}
+[23.883153] (-) TimerEvent: {}
+[23.986840] (-) TimerEvent: {}
+[24.093565] (-) TimerEvent: {}
+[24.205478] (-) TimerEvent: {}
+[24.321905] (-) TimerEvent: {}
+[24.425400] (-) TimerEvent: {}
+[24.513377] (hw3code) JobEnded: {'identifier': 'hw3code', 'rc': 0}
+[24.561901] (-) TimerEvent: {}
+[24.562430] (hw6code) JobStarted: {'identifier': 'hw6code'}
+[24.663087] (-) TimerEvent: {}
+[24.764701] (-) TimerEvent: {}
+[24.868816] (-) TimerEvent: {}
+[24.987289] (-) TimerEvent: {}
+[25.107935] (-) TimerEvent: {}
+[25.112478] (atlas_description) CommandEnded: {'returncode': 0}
+[25.134452] (atlas_description) JobProgress: {'identifier': 'atlas_description', 'progress': 'build'}
+[25.168307] (atlas_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/host/src/build/atlas_description', '--', '-j3', '-l3'], 'cwd': '/home/ubuntu/host/src/build/atlas_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '3310'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/robotws'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '6943'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/ubuntu/robotws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/primary:@/tmp/.ICE-unix/3452,unix/primary:/tmp/.ICE-unix/3452'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4d664f7_34f2_4d1d_9d53_2850a946d6a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/home/ubuntu/robotws/install/atlas_description:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/host/src/build/atlas_description'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/robotws/build/hw7code:/home/ubuntu/robotws/install/hw7code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw6code:/home/ubuntu/robotws/install/hw6code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw5code:/home/ubuntu/robotws/install/hw5code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw4code:/home/ubuntu/robotws/install/hw4code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw3code:/home/ubuntu/robotws/install/hw3code/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/robotws/install/atlas_description:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble')]), 'shell': False}
+[25.209980] (-) TimerEvent: {}
+[25.313167] (-) TimerEvent: {}
+[25.416215] (-) TimerEvent: {}
+[25.521241] (-) TimerEvent: {}
+[25.627751] (-) TimerEvent: {}
+[25.734600] (-) TimerEvent: {}
+[25.840663] (-) TimerEvent: {}
+[25.943592] (-) TimerEvent: {}
+[26.046970] (-) TimerEvent: {}
+[26.150160] (-) TimerEvent: {}
+[26.255658] (-) TimerEvent: {}
+[26.371990] (-) TimerEvent: {}
+[26.497163] (-) TimerEvent: {}
+[26.604944] (-) TimerEvent: {}
+[26.712102] (-) TimerEvent: {}
+[26.820576] (-) TimerEvent: {}
+[26.965911] (-) TimerEvent: {}
+[27.075448] (-) TimerEvent: {}
+[27.212535] (-) TimerEvent: {}
+[27.317613] (-) TimerEvent: {}
+[27.419922] (-) TimerEvent: {}
+[27.524066] (-) TimerEvent: {}
+[27.646185] (-) TimerEvent: {}
+[27.750001] (-) TimerEvent: {}
+[27.852015] (-) TimerEvent: {}
+[27.955380] (-) TimerEvent: {}
+[28.062236] (-) TimerEvent: {}
+[28.198205] (-) TimerEvent: {}
+[28.303404] (-) TimerEvent: {}
+[28.407180] (-) TimerEvent: {}
+[28.513925] (-) TimerEvent: {}
+[28.618745] (-) TimerEvent: {}
+[28.721877] (-) TimerEvent: {}
+[28.824494] (-) TimerEvent: {}
+[29.473730] (-) TimerEvent: {}
+[29.613840] (-) TimerEvent: {}
+[29.721450] (-) TimerEvent: {}
+[29.824077] (-) TimerEvent: {}
+[30.105505] (-) TimerEvent: {}
+[30.208490] (-) TimerEvent: {}
+[30.314150] (-) TimerEvent: {}
+[30.419026] (-) TimerEvent: {}
+[30.553757] (-) TimerEvent: {}
+[30.658556] (-) TimerEvent: {}
+[30.804208] (-) TimerEvent: {}
+[30.921533] (-) TimerEvent: {}
+[31.057254] (-) TimerEvent: {}
+[31.160015] (-) TimerEvent: {}
+[31.264464] (-) TimerEvent: {}
+[31.370313] (-) TimerEvent: {}
+[31.509662] (-) TimerEvent: {}
+[31.608595] (atlas_description) CommandEnded: {'returncode': 0}
+[31.614753] (-) TimerEvent: {}
+[31.720465] (-) TimerEvent: {}
+[31.824628] (-) TimerEvent: {}
+[31.969808] (-) TimerEvent: {}
+[32.074364] (-) TimerEvent: {}
+[32.198236] (-) TimerEvent: {}
+[32.302876] (-) TimerEvent: {}
+[32.371656] (atlas_description) JobProgress: {'identifier': 'atlas_description', 'progress': 'install'}
+[32.421122] (-) TimerEvent: {}
+[32.546475] (-) TimerEvent: {}
+[32.593983] (atlas_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/host/src/build/atlas_description'], 'cwd': '/home/ubuntu/host/src/build/atlas_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '3310'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/robotws'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '6943'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/ubuntu/robotws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/primary:@/tmp/.ICE-unix/3452,unix/primary:/tmp/.ICE-unix/3452'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4d664f7_34f2_4d1d_9d53_2850a946d6a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/home/ubuntu/robotws/install/atlas_description:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/host/src/build/atlas_description'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/robotws/build/hw7code:/home/ubuntu/robotws/install/hw7code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw6code:/home/ubuntu/robotws/install/hw6code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw5code:/home/ubuntu/robotws/install/hw5code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw4code:/home/ubuntu/robotws/install/hw4code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw3code:/home/ubuntu/robotws/install/hw3code/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/robotws/install/atlas_description:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble')]), 'shell': False}
+[32.650826] (-) TimerEvent: {}
+[32.663544] (atlas_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.767026] (-) TimerEvent: {}
+[32.773423] (atlas_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[32.855858] (-) TimerEvent: {}
+[32.960690] (-) TimerEvent: {}
+[33.066274] (-) TimerEvent: {}
+[33.070152] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/launch/__init__.py\n'}
+[33.167745] (-) TimerEvent: {}
+[33.271323] (-) TimerEvent: {}
+[33.298976] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/launch/viewatlas.launch.py\n'}
+[33.372256] (-) TimerEvent: {}
+[33.475083] (-) TimerEvent: {}
+[33.592232] (-) TimerEvent: {}
+[33.596796] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes/base_link.mtl\n'}
+[33.696486] (-) TimerEvent: {}
+[33.801369] (-) TimerEvent: {}
+[33.805619] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes/base_link.obj\n'}
+[33.902154] (-) TimerEvent: {}
+[34.004521] (-) TimerEvent: {}
+[34.008518] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes/wheel.mtl\n'}
+[34.105060] (-) TimerEvent: {}
+[34.175629] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes/wheel.obj\n'}
+[34.205811] (-) TimerEvent: {}
+[34.308590] (-) TimerEvent: {}
+[34.410310] (-) TimerEvent: {}
+[34.418005] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/rviz/urdf.rviz\n'}
+[34.546047] (-) TimerEvent: {}
+[34.648780] (-) TimerEvent: {}
+[34.652737] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/rviz/viewatlas.rviz\n'}
+[34.749667] (-) TimerEvent: {}
+[34.852978] (-) TimerEvent: {}
+[34.858637] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/rviz/viewurdf.rviz\n'}
+[34.954853] (-) TimerEvent: {}
+[35.058878] (-) TimerEvent: {}
+[35.161681] (-) TimerEvent: {}
+[35.168042] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/src/__init__.py\n'}
+[35.262316] (-) TimerEvent: {}
+[35.397770] (-) TimerEvent: {}
+[35.503723] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/urdf/atlas.urdf\n'}
+[35.510138] (-) TimerEvent: {}
+[35.620091] (-) TimerEvent: {}
+[35.724158] (-) TimerEvent: {}
+[35.762242] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/urdf/atlas_v5.urdf\n'}
+[35.825031] (-) TimerEvent: {}
+[35.950476] (-) TimerEvent: {}
+[35.953901] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/urdf/atlasfixed.urdf\n'}
+[36.051700] (-) TimerEvent: {}
+[36.154752] (-) TimerEvent: {}
+[36.256829] (-) TimerEvent: {}
+[36.315784] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/CMakeLists.txt\n'}
+[36.357556] (-) TimerEvent: {}
+[36.461465] (-) TimerEvent: {}
+[36.561526] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/CMakeLists.txt\n'}
+[36.562125] (-) TimerEvent: {}
+[36.664050] (-) TimerEvent: {}
+[36.770407] (-) TimerEvent: {}
+[36.806698] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/atlas_DRC_1.png\n'}
+[36.873170] (-) TimerEvent: {}
+[36.997868] (-) TimerEvent: {}
+[37.050797] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/atlas_DRC_carbon_fiber.png\n'}
+[37.099500] (-) TimerEvent: {}
+[37.201751] (-) TimerEvent: {}
+[37.316146] (hw5code) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/host/src/build/hw5code/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/host/src/build/hw5code', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '3310', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/robotws', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '6943', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/ubuntu/robotws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/primary:@/tmp/.ICE-unix/3452,unix/primary:/tmp/.ICE-unix/3452', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a4d664f7_34f2_4d1d_9d53_2850a946d6a8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.135', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/home/ubuntu/robotws/install/atlas_description:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/host/src/build/hw5code', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/host/src/build/hw5code/prefix_override:/home/ubuntu/host/src/install/hw5code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw7code:/home/ubuntu/robotws/install/hw7code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw6code:/home/ubuntu/robotws/install/hw6code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw5code:/home/ubuntu/robotws/install/hw5code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw4code:/home/ubuntu/robotws/install/hw4code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw3code:/home/ubuntu/robotws/install/hw3code/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/robotws/install/atlas_description'}, 'shell': False}
+[37.597301] (-) TimerEvent: {}
+[37.599147] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/atlas_DRC_dark_1.png\n'}
+[37.607227] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/atlas_cage_and_camera_diffuse_flat.jpg\n'}
+[37.698932] (-) TimerEvent: {}
+[37.800789] (-) TimerEvent: {}
+[37.811666] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/drc_extremities_diffuse.jpg\n'}
+[37.902108] (-) TimerEvent: {}
+[38.007163] (-) TimerEvent: {}
+[38.102716] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/drc_head_diffuse.png\n'}
+[38.108265] (-) TimerEvent: {}
+[38.211670] (-) TimerEvent: {}
+[38.314917] (-) TimerEvent: {}
+[38.349486] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/drc_labels_1.jpg\n'}
+[38.416291] (-) TimerEvent: {}
+[38.520481] (-) TimerEvent: {}
+[38.616498] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/drc_torso_head_diffuse.jpg\n'}
+[38.625132] (-) TimerEvent: {}
+[38.737993] (-) TimerEvent: {}
+[38.819896] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/extremities_diffuse.png\n'}
+[38.841216] (-) TimerEvent: {}
+[38.946694] (-) TimerEvent: {}
+[39.049051] (-) TimerEvent: {}
+[39.091461] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/extremities_diffuse_unplugged.jpg\n'}
+[39.149577] (-) TimerEvent: {}
+[39.251090] (-) TimerEvent: {}
+[39.306379] (hw6code) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/host/src/build/hw6code/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/host/src/build/hw6code', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '3310', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/robotws', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '6943', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/ubuntu/robotws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/primary:@/tmp/.ICE-unix/3452,unix/primary:/tmp/.ICE-unix/3452', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a4d664f7_34f2_4d1d_9d53_2850a946d6a8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.135', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/home/ubuntu/robotws/install/atlas_description:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/host/src/build/hw6code', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/host/src/build/hw6code/prefix_override:/home/ubuntu/host/src/install/hw6code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw7code:/home/ubuntu/robotws/install/hw7code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw6code:/home/ubuntu/robotws/install/hw6code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw5code:/home/ubuntu/robotws/install/hw5code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw4code:/home/ubuntu/robotws/install/hw4code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw3code:/home/ubuntu/robotws/install/hw3code/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/robotws/install/atlas_description'}, 'shell': False}
+[39.502073] (-) TimerEvent: {}
+[39.503001] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/right_leg_diffuse_unplugged.jpg\n'}
+[39.514835] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/torso_diffuse.png\n'}
+[39.603581] (-) TimerEvent: {}
+[39.706294] (-) TimerEvent: {}
+[39.813510] (-) TimerEvent: {}
+[39.922303] (-) TimerEvent: {}
+[40.025504] (-) TimerEvent: {}
+[40.140604] (-) TimerEvent: {}
+[40.244294] (-) TimerEvent: {}
+[40.248223] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/materials/textures/torso_diffuse_unplugged.jpg\n'}
+[40.345860] (-) TimerEvent: {}
+[40.449860] (-) TimerEvent: {}
+[40.563910] (-) TimerEvent: {}
+[40.672054] (-) TimerEvent: {}
+[40.775066] (-) TimerEvent: {}
+[40.817627] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_clav.dae\n'}
+[40.876064] (-) TimerEvent: {}
+[41.002307] (-) TimerEvent: {}
+[41.022856] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_farm.dae\n'}
+[41.120337] (hw5code) StdoutLine: {'line': b'running develop\n'}
+[41.122578] (-) TimerEvent: {}
+[41.126237] (hw5code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[41.155357] (hw5code) StderrLine: {'line': b'  warnings.warn(\n'}
+[41.159067] (hw5code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[41.163279] (hw5code) StderrLine: {'line': b'  warnings.warn(\n'}
+[41.224083] (-) TimerEvent: {}
+[41.348434] (-) TimerEvent: {}
+[41.357965] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_foot.dae\n'}
+[41.451339] (-) TimerEvent: {}
+[41.555122] (-) TimerEvent: {}
+[41.563671] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_hand.dae\n'}
+[41.657725] (-) TimerEvent: {}
+[41.760671] (-) TimerEvent: {}
+[41.814850] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_larm.dae\n'}
+[41.862327] (-) TimerEvent: {}
+[41.966968] (-) TimerEvent: {}
+[42.061038] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_lglut.dae\n'}
+[42.068189] (-) TimerEvent: {}
+[42.173777] (-) TimerEvent: {}
+[42.299136] (-) TimerEvent: {}
+[42.319598] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_lleg.dae\n'}
+[42.401945] (-) TimerEvent: {}
+[42.504403] (-) TimerEvent: {}
+[42.609041] (-) TimerEvent: {}
+[42.712985] (-) TimerEvent: {}
+[42.816478] (-) TimerEvent: {}
+[42.920524] (-) TimerEvent: {}
+[43.024686] (-) TimerEvent: {}
+[43.104196] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_scap.dae\n'}
+[43.126400] (-) TimerEvent: {}
+[43.250446] (-) TimerEvent: {}
+[43.352990] (-) TimerEvent: {}
+[43.455056] (-) TimerEvent: {}
+[43.462031] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_talus.dae\n'}
+[43.557664] (-) TimerEvent: {}
+[43.661472] (-) TimerEvent: {}
+[43.765252] (-) TimerEvent: {}
+[43.897315] (-) TimerEvent: {}
+[44.004714] (-) TimerEvent: {}
+[44.106461] (-) TimerEvent: {}
+[44.213545] (-) TimerEvent: {}
+[44.323550] (-) TimerEvent: {}
+[44.443225] (-) TimerEvent: {}
+[44.553666] (-) TimerEvent: {}
+[44.659269] (-) TimerEvent: {}
+[44.766011] (-) TimerEvent: {}
+[44.868631] (-) TimerEvent: {}
+[44.971679] (-) TimerEvent: {}
+[45.074622] (-) TimerEvent: {}
+[45.205459] (-) TimerEvent: {}
+[45.312811] (-) TimerEvent: {}
+[45.415307] (-) TimerEvent: {}
+[45.519270] (-) TimerEvent: {}
+[45.625279] (-) TimerEvent: {}
+[45.757537] (-) TimerEvent: {}
+[45.860321] (-) TimerEvent: {}
+[45.874517] (hw5code) StdoutLine: {'line': b'running egg_info\n'}
+[45.962339] (-) TimerEvent: {}
+[46.065471] (-) TimerEvent: {}
+[46.169461] (-) TimerEvent: {}
+[46.273769] (-) TimerEvent: {}
+[46.406212] (-) TimerEvent: {}
+[46.509585] (-) TimerEvent: {}
+[46.657572] (-) TimerEvent: {}
+[46.764780] (-) TimerEvent: {}
+[46.817044] (hw5code) StdoutLine: {'line': b'creating hw5code.egg-info\n'}
+[46.860361] (hw5code) StdoutLine: {'line': b'writing hw5code.egg-info/PKG-INFO\n'}
+[46.867087] (-) TimerEvent: {}
+[46.910606] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_uarm.dae\n'}
+[46.925820] (hw5code) StdoutLine: {'line': b'writing dependency_links to hw5code.egg-info/dependency_links.txt\n'}
+[46.968666] (-) TimerEvent: {}
+[47.010299] (hw5code) StdoutLine: {'line': b'writing entry points to hw5code.egg-info/entry_points.txt\n'}
+[47.069819] (-) TimerEvent: {}
+[47.121352] (hw5code) StdoutLine: {'line': b'writing requirements to hw5code.egg-info/requires.txt\n'}
+[47.169857] (hw5code) StdoutLine: {'line': b'writing top-level names to hw5code.egg-info/top_level.txt\n'}
+[47.173099] (-) TimerEvent: {}
+[47.276642] (-) TimerEvent: {}
+[47.404164] (-) TimerEvent: {}
+[47.510245] (-) TimerEvent: {}
+[47.613484] (-) TimerEvent: {}
+[47.706318] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_uglut.dae\n'}
+[47.715101] (-) TimerEvent: {}
+[47.750574] (hw5code) StdoutLine: {'line': b"writing manifest file 'hw5code.egg-info/SOURCES.txt'\n"}
+[47.816226] (-) TimerEvent: {}
+[47.925516] (-) TimerEvent: {}
+[48.054797] (-) TimerEvent: {}
+[48.157354] (-) TimerEvent: {}
+[48.261257] (-) TimerEvent: {}
+[48.366566] (-) TimerEvent: {}
+[48.471083] (-) TimerEvent: {}
+[48.558868] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/l_uleg.dae\n'}
+[48.573449] (-) TimerEvent: {}
+[48.675980] (-) TimerEvent: {}
+[48.799171] (hw6code) StdoutLine: {'line': b'running develop\n'}
+[48.810651] (-) TimerEvent: {}
+[48.811739] (hw6code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[48.819041] (hw6code) StderrLine: {'line': b'  warnings.warn(\n'}
+[48.822052] (hw6code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[48.825888] (hw6code) StderrLine: {'line': b'  warnings.warn(\n'}
+[48.916793] (-) TimerEvent: {}
+[48.960366] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/ltorso.dae\n'}
+[49.020806] (-) TimerEvent: {}
+[49.122414] (-) TimerEvent: {}
+[49.206785] (hw5code) StdoutLine: {'line': b"reading manifest file 'hw5code.egg-info/SOURCES.txt'\n"}
+[49.223664] (-) TimerEvent: {}
+[49.266428] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/mtorso.dae\n'}
+[49.322347] (hw5code) StdoutLine: {'line': b"writing manifest file 'hw5code.egg-info/SOURCES.txt'\n"}
+[49.324147] (-) TimerEvent: {}
+[49.410934] (hw5code) StdoutLine: {'line': b'running build_ext\n'}
+[49.412279] (hw5code) StdoutLine: {'line': b'Creating /home/ubuntu/host/src/install/hw5code/lib/python3.10/site-packages/hw5code.egg-link (link to .)\n'}
+[49.425689] (-) TimerEvent: {}
+[49.544994] (-) TimerEvent: {}
+[49.551645] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/pelvis.dae\n'}
+[49.574699] (hw5code) StdoutLine: {'line': b'Installing hw5p1 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code\n'}
+[49.647292] (-) TimerEvent: {}
+[49.710075] (hw5code) StdoutLine: {'line': b'Installing hw5p2 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code\n'}
+[49.749407] (-) TimerEvent: {}
+[49.810141] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_clav.dae\n'}
+[49.852727] (-) TimerEvent: {}
+[49.859776] (hw5code) StdoutLine: {'line': b'Installing hw5p3 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code\n'}
+[49.955050] (-) TimerEvent: {}
+[49.962360] (hw5code) StdoutLine: {'line': b'Installing hw5p4 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code\n'}
+[50.053287] (hw5code) StdoutLine: {'line': b'Installing hw5p5 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code\n'}
+[50.056369] (-) TimerEvent: {}
+[50.068773] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_farm.dae\n'}
+[50.157981] (-) TimerEvent: {}
+[50.163198] (hw5code) StdoutLine: {'line': b'\n'}
+[50.167547] (hw5code) StdoutLine: {'line': b'Installed /home/ubuntu/host/src/build/hw5code\n'}
+[50.220043] (hw5code) StdoutLine: {'line': b'running install_data\n'}
+[50.260450] (hw5code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw5code/share/ament_index\n'}
+[50.266487] (-) TimerEvent: {}
+[50.273110] (hw5code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw5code/share/ament_index/resource_index\n'}
+[50.307402] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_foot.dae\n'}
+[50.313437] (hw5code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw5code/share/ament_index/resource_index/packages\n'}
+[50.367513] (-) TimerEvent: {}
+[50.371114] (hw5code) StdoutLine: {'line': b'copying resource/hw5code -> /home/ubuntu/host/src/install/hw5code/share/ament_index/resource_index/packages\n'}
+[50.469863] (-) TimerEvent: {}
+[50.500487] (hw5code) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/host/src/install/hw5code/share/hw5code\n'}
+[50.518785] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_hand.dae\n'}
+[50.571705] (-) TimerEvent: {}
+[50.598695] (hw5code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw5code/share/hw5code/urdf\n'}
+[50.646501] (hw5code) StdoutLine: {'line': b'copying urdf/threeDOF.urdf -> /home/ubuntu/host/src/install/hw5code/share/hw5code/urdf\n'}
+[50.673787] (-) TimerEvent: {}
+[50.749341] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_larm.dae\n'}
+[50.775160] (-) TimerEvent: {}
+[50.907816] (-) TimerEvent: {}
+[50.923735] (hw5code) CommandEnded: {'returncode': 0}
+[51.013277] (-) TimerEvent: {}
+[51.098518] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_lglut.dae\n'}
+[51.115480] (-) TimerEvent: {}
+[51.222975] (-) TimerEvent: {}
+[51.348693] (-) TimerEvent: {}
+[51.365644] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_lleg.dae\n'}
+[51.450622] (-) TimerEvent: {}
+[51.559156] (-) TimerEvent: {}
+[51.664941] (-) TimerEvent: {}
+[51.666967] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_scap.dae\n'}
+[51.766264] (-) TimerEvent: {}
+[51.870852] (-) TimerEvent: {}
+[51.976303] (-) TimerEvent: {}
+[52.096766] (-) TimerEvent: {}
+[52.201449] (-) TimerEvent: {}
+[52.304307] (-) TimerEvent: {}
+[52.308584] (hw6code) StdoutLine: {'line': b'running egg_info\n'}
+[52.318209] (hw6code) StdoutLine: {'line': b'creating hw6code.egg-info\n'}
+[52.403468] (hw6code) StdoutLine: {'line': b'writing hw6code.egg-info/PKG-INFO\n'}
+[52.414645] (-) TimerEvent: {}
+[52.470847] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_talus.dae\n'}
+[52.510197] (hw6code) StdoutLine: {'line': b'writing dependency_links to hw6code.egg-info/dependency_links.txt\n'}
+[52.515625] (-) TimerEvent: {}
+[52.604018] (hw6code) StdoutLine: {'line': b'writing entry points to hw6code.egg-info/entry_points.txt\n'}
+[52.616565] (-) TimerEvent: {}
+[52.666856] (hw6code) StdoutLine: {'line': b'writing requirements to hw6code.egg-info/requires.txt\n'}
+[52.705028] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_uarm.dae\n'}
+[52.715839] (hw6code) StdoutLine: {'line': b'writing top-level names to hw6code.egg-info/top_level.txt\n'}
+[52.720782] (-) TimerEvent: {}
+[52.753575] (hw6code) StdoutLine: {'line': b"writing manifest file 'hw6code.egg-info/SOURCES.txt'\n"}
+[52.824165] (-) TimerEvent: {}
+[52.941869] (-) TimerEvent: {}
+[53.051353] (-) TimerEvent: {}
+[53.154728] (-) TimerEvent: {}
+[53.264758] (-) TimerEvent: {}
+[53.368519] (-) TimerEvent: {}
+[53.472490] (-) TimerEvent: {}
+[53.495412] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_uglut.dae\n'}
+[53.573693] (-) TimerEvent: {}
+[53.693932] (-) TimerEvent: {}
+[53.747945] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/r_uleg.dae\n'}
+[53.797843] (-) TimerEvent: {}
+[53.901140] (-) TimerEvent: {}
+[54.007531] (-) TimerEvent: {}
+[54.113399] (-) TimerEvent: {}
+[54.141054] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/meshes_unplugged/utorso.dae\n'}
+[54.214418] (-) TimerEvent: {}
+[54.323116] (-) TimerEvent: {}
+[54.457988] (-) TimerEvent: {}
+[54.560941] (-) TimerEvent: {}
+[54.663603] (-) TimerEvent: {}
+[54.767817] (-) TimerEvent: {}
+[54.817217] (hw6code) StdoutLine: {'line': b"reading manifest file 'hw6code.egg-info/SOURCES.txt'\n"}
+[54.865266] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/ament_index/resource_index/package_run_dependencies/atlas_description\n'}
+[54.870361] (-) TimerEvent: {}
+[54.977076] (-) TimerEvent: {}
+[55.113817] (-) TimerEvent: {}
+[55.119943] (hw6code) StdoutLine: {'line': b"writing manifest file 'hw6code.egg-info/SOURCES.txt'\n"}
+[55.157043] (hw5code) JobEnded: {'identifier': 'hw5code', 'rc': 0}
+[55.365691] (-) TimerEvent: {}
+[55.412849] (hw7code) JobStarted: {'identifier': 'hw7code'}
+[55.459585] (hw6code) StdoutLine: {'line': b'running build_ext\n'}
+[55.473152] (-) TimerEvent: {}
+[55.473672] (hw6code) StdoutLine: {'line': b'Creating /home/ubuntu/host/src/install/hw6code/lib/python3.10/site-packages/hw6code.egg-link (link to .)\n'}
+[55.474282] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/ament_index/resource_index/parent_prefix_path/atlas_description\n'}
+[55.561652] (hw6code) StdoutLine: {'line': b'Installing hw6p3 script to /home/ubuntu/host/src/install/hw6code/lib/hw6code\n'}
+[55.575055] (-) TimerEvent: {}
+[55.702806] (-) TimerEvent: {}
+[55.717782] (hw6code) StdoutLine: {'line': b'Installing hw6p4 script to /home/ubuntu/host/src/install/hw6code/lib/hw6code\n'}
+[55.809071] (-) TimerEvent: {}
+[55.819023] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/environment/ament_prefix_path.sh\n'}
+[55.862174] (hw6code) StdoutLine: {'line': b'Installing hw6p5 script to /home/ubuntu/host/src/install/hw6code/lib/hw6code\n'}
+[55.912293] (-) TimerEvent: {}
+[56.014501] (-) TimerEvent: {}
+[56.025848] (hw6code) StdoutLine: {'line': b'\n'}
+[56.054911] (hw6code) StdoutLine: {'line': b'Installed /home/ubuntu/host/src/build/hw6code\n'}
+[56.062075] (hw6code) StdoutLine: {'line': b'running install_data\n'}
+[56.112376] (hw6code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw6code/share/ament_index\n'}
+[56.116870] (-) TimerEvent: {}
+[56.126929] (hw6code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw6code/share/ament_index/resource_index\n'}
+[56.212848] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/environment/ament_prefix_path.dsv\n'}
+[56.215868] (hw6code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw6code/share/ament_index/resource_index/packages\n'}
+[56.218395] (-) TimerEvent: {}
+[56.264812] (hw6code) StdoutLine: {'line': b'copying resource/hw6code -> /home/ubuntu/host/src/install/hw6code/share/ament_index/resource_index/packages\n'}
+[56.320102] (-) TimerEvent: {}
+[56.477201] (-) TimerEvent: {}
+[56.512476] (hw6code) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/host/src/install/hw6code/share/hw6code\n'}
+[56.606093] (-) TimerEvent: {}
+[56.665582] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/environment/path.sh\n'}
+[56.717450] (-) TimerEvent: {}
+[56.760237] (hw6code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw6code/share/hw6code/launch\n'}
+[56.770036] (hw6code) StdoutLine: {'line': b'copying launch/hw6p3.launch.py -> /home/ubuntu/host/src/install/hw6code/share/hw6code/launch\n'}
+[56.821023] (-) TimerEvent: {}
+[56.915837] (hw6code) StdoutLine: {'line': b'copying launch/hw6p4.launch.py -> /home/ubuntu/host/src/install/hw6code/share/hw6code/launch\n'}
+[56.924750] (-) TimerEvent: {}
+[56.974814] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/environment/path.dsv\n'}
+[57.054404] (-) TimerEvent: {}
+[57.074064] (hw6code) StdoutLine: {'line': b'copying launch/hw6p5.launch.py -> /home/ubuntu/host/src/install/hw6code/share/hw6code/launch\n'}
+[57.158792] (-) TimerEvent: {}
+[57.264341] (-) TimerEvent: {}
+[57.354001] (hw6code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes\n'}
+[57.427161] (-) TimerEvent: {}
+[57.526009] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/local_setup.bash\n'}
+[57.666019] (-) TimerEvent: {}
+[57.722878] (hw6code) StdoutLine: {'line': b'copying meshes/Cube.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes\n'}
+[57.753616] (hw6code) StdoutLine: {'line': b'copying meshes/CubePlus.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes\n'}
+[57.767236] (-) TimerEvent: {}
+[57.913927] (-) TimerEvent: {}
+[57.976450] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/local_setup.sh\n'}
+[58.055306] (-) TimerEvent: {}
+[58.067461] (hw6code) StdoutLine: {'line': b'copying meshes/GimbalBase.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes\n'}
+[58.161561] (-) TimerEvent: {}
+[58.267062] (-) TimerEvent: {}
+[58.369653] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/local_setup.zsh\n'}
+[58.455184] (-) TimerEvent: {}
+[58.467943] (hw6code) StdoutLine: {'line': b'copying meshes/GimbalLowerArm.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes\n'}
+[58.553727] (-) TimerEvent: {}
+[58.659416] (-) TimerEvent: {}
+[58.762390] (-) TimerEvent: {}
+[58.905958] (-) TimerEvent: {}
+[58.914791] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/local_setup.dsv\n'}
+[58.921776] (hw6code) StdoutLine: {'line': b'copying meshes/GimbalUpperArm.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes\n'}
+[59.007612] (-) TimerEvent: {}
+[59.109710] (-) TimerEvent: {}
+[59.117671] (hw6code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf\n'}
+[59.210870] (-) TimerEvent: {}
+[59.861286] (-) TimerEvent: {}
+[59.970482] (-) TimerEvent: {}
+[60.155163] (hw6code) StdoutLine: {'line': b'copying urdf/gimbal.urdf -> /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf\n'}
+[60.162277] (-) TimerEvent: {}
+[60.162960] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.dsv\n'}
+[60.263413] (-) TimerEvent: {}
+[60.455712] (hw6code) StdoutLine: {'line': b'copying urdf/sixDOF.urdf -> /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf\n'}
+[60.457526] (-) TimerEvent: {}
+[60.559488] (-) TimerEvent: {}
+[60.662975] (-) TimerEvent: {}
+[60.676489] (hw6code) StdoutLine: {'line': b'copying urdf/sixDOF_Obstacle.urdf -> /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf\n'}
+[60.721965] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/ament_index/resource_index/packages/atlas_description\n'}
+[60.770294] (-) TimerEvent: {}
+[60.872786] (-) TimerEvent: {}
+[61.005530] (-) TimerEvent: {}
+[61.054507] (hw6code) StdoutLine: {'line': b'copying urdf/sixDOF_Paddle.urdf -> /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf\n'}
+[61.107166] (-) TimerEvent: {}
+[61.210028] (-) TimerEvent: {}
+[61.312825] (-) TimerEvent: {}
+[61.314376] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/cmake/atlas_descriptionConfig.cmake\n'}
+[61.414062] (-) TimerEvent: {}
+[61.517735] (-) TimerEvent: {}
+[61.619301] (-) TimerEvent: {}
+[61.662735] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/cmake/atlas_descriptionConfig-version.cmake\n'}
+[61.722609] (-) TimerEvent: {}
+[61.826611] (-) TimerEvent: {}
+[61.957595] (-) TimerEvent: {}
+[61.971621] (atlas_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.xml\n'}
+[62.058467] (-) TimerEvent: {}
+[62.160916] (-) TimerEvent: {}
+[62.265210] (-) TimerEvent: {}
+[62.372119] (-) TimerEvent: {}
+[62.505042] (-) TimerEvent: {}
+[62.608064] (-) TimerEvent: {}
+[62.716449] (-) TimerEvent: {}
+[62.820711] (-) TimerEvent: {}
+[62.925670] (-) TimerEvent: {}
+[63.054981] (-) TimerEvent: {}
+[63.164300] (-) TimerEvent: {}
+[63.267803] (-) TimerEvent: {}
+[63.369473] (-) TimerEvent: {}
+[63.472913] (-) TimerEvent: {}
+[63.575930] (-) TimerEvent: {}
+[63.713003] (-) TimerEvent: {}
+[63.814706] (-) TimerEvent: {}
+[63.917873] (-) TimerEvent: {}
+[64.022965] (-) TimerEvent: {}
+[64.153996] (-) TimerEvent: {}
+[64.258163] (-) TimerEvent: {}
+[64.407699] (-) TimerEvent: {}
+[64.523581] (-) TimerEvent: {}
+[64.673372] (-) TimerEvent: {}
+[64.870773] (-) TimerEvent: {}
+[64.977758] (-) TimerEvent: {}
+[65.122829] (-) TimerEvent: {}
+[65.263768] (-) TimerEvent: {}
+[65.326573] (atlas_description) CommandEnded: {'returncode': 0}
+[65.412078] (-) TimerEvent: {}
+[65.527204] (-) TimerEvent: {}
+[65.669881] (-) TimerEvent: {}
+[65.776386] (-) TimerEvent: {}
+[65.908669] (-) TimerEvent: {}
+[66.013977] (-) TimerEvent: {}
+[66.115929] (-) TimerEvent: {}
+[66.222382] (-) TimerEvent: {}
+[66.325981] (-) TimerEvent: {}
+[66.457143] (-) TimerEvent: {}
+[66.562611] (-) TimerEvent: {}
+[66.667886] (-) TimerEvent: {}
+[66.773838] (-) TimerEvent: {}
+[66.905717] (-) TimerEvent: {}
+[67.018398] (-) TimerEvent: {}
+[67.123655] (-) TimerEvent: {}
+[67.254404] (-) TimerEvent: {}
+[67.359442] (-) TimerEvent: {}
+[67.464393] (-) TimerEvent: {}
+[67.566717] (-) TimerEvent: {}
+[67.671162] (-) TimerEvent: {}
+[67.774973] (-) TimerEvent: {}
+[67.877546] (-) TimerEvent: {}
+[68.008850] (-) TimerEvent: {}
+[68.122345] (-) TimerEvent: {}
+[68.255117] (-) TimerEvent: {}
+[68.363195] (-) TimerEvent: {}
+[68.466469] (-) TimerEvent: {}
+[68.571063] (-) TimerEvent: {}
+[68.673674] (-) TimerEvent: {}
+[68.777097] (-) TimerEvent: {}
+[68.915563] (-) TimerEvent: {}
+[69.018449] (-) TimerEvent: {}
+[69.122639] (-) TimerEvent: {}
+[69.225361] (-) TimerEvent: {}
+[69.328062] (-) TimerEvent: {}
+[69.457036] (-) TimerEvent: {}
+[69.617404] (-) TimerEvent: {}
+[69.721412] (-) TimerEvent: {}
+[69.853957] (-) TimerEvent: {}
+[70.021652] (-) TimerEvent: {}
+[70.157006] (-) TimerEvent: {}
+[70.262572] (-) TimerEvent: {}
+[70.368262] (-) TimerEvent: {}
+[70.505305] (-) TimerEvent: {}
+[70.607794] (-) TimerEvent: {}
+[70.716305] (-) TimerEvent: {}
+[70.820612] (-) TimerEvent: {}
+[70.946595] (-) TimerEvent: {}
+[70.953786] (hw6code) CommandEnded: {'returncode': 0}
+[71.050371] (-) TimerEvent: {}
+[71.172756] (-) TimerEvent: {}
+[71.274805] (-) TimerEvent: {}
+[71.404174] (-) TimerEvent: {}
+[71.517194] (-) TimerEvent: {}
+[71.620036] (-) TimerEvent: {}
+[71.725070] (-) TimerEvent: {}
+[71.827718] (-) TimerEvent: {}
+[71.954649] (-) TimerEvent: {}
+[72.058659] (-) TimerEvent: {}
+[72.162899] (-) TimerEvent: {}
+[72.277293] (-) TimerEvent: {}
+[72.406022] (-) TimerEvent: {}
+[72.515732] (-) TimerEvent: {}
+[72.620451] (-) TimerEvent: {}
+[72.723114] (-) TimerEvent: {}
+[72.813220] (hw6code) JobEnded: {'identifier': 'hw6code', 'rc': 0}
+[72.871077] (-) TimerEvent: {}
+[72.974264] (-) TimerEvent: {}
+[73.094489] (-) TimerEvent: {}
+[73.203064] (-) TimerEvent: {}
+[73.309371] (-) TimerEvent: {}
+[73.447617] (-) TimerEvent: {}
+[73.551583] (-) TimerEvent: {}
+[73.660108] (-) TimerEvent: {}
+[73.764385] (-) TimerEvent: {}
+[73.868666] (-) TimerEvent: {}
+[73.972080] (-) TimerEvent: {}
+[74.075033] (-) TimerEvent: {}
+[74.190358] (-) TimerEvent: {}
+[74.293480] (-) TimerEvent: {}
+[74.398811] (-) TimerEvent: {}
+[74.505305] (-) TimerEvent: {}
+[74.610039] (-) TimerEvent: {}
+[74.713799] (-) TimerEvent: {}
+[74.817158] (-) TimerEvent: {}
+[74.921236] (-) TimerEvent: {}
+[75.023768] (-) TimerEvent: {}
+[75.125795] (-) TimerEvent: {}
+[75.245640] (-) TimerEvent: {}
+[75.445661] (-) TimerEvent: {}
+[75.550925] (-) TimerEvent: {}
+[75.657661] (-) TimerEvent: {}
+[75.763245] (-) TimerEvent: {}
+[75.867388] (-) TimerEvent: {}
+[75.970937] (-) TimerEvent: {}
+[76.151790] (-) TimerEvent: {}
+[76.258568] (-) TimerEvent: {}
+[76.363457] (-) TimerEvent: {}
+[76.468005] (-) TimerEvent: {}
+[76.571353] (-) TimerEvent: {}
+[76.674339] (-) TimerEvent: {}
+[76.717692] (atlas_description) JobEnded: {'identifier': 'atlas_description', 'rc': 0}
+[76.775812] (-) TimerEvent: {}
+[76.877646] (-) TimerEvent: {}
+[76.996572] (-) TimerEvent: {}
+[77.100664] (-) TimerEvent: {}
+[77.210238] (-) TimerEvent: {}
+[77.318876] (-) TimerEvent: {}
+[77.421600] (-) TimerEvent: {}
+[77.525003] (-) TimerEvent: {}
+[77.638731] (-) TimerEvent: {}
+[77.742921] (-) TimerEvent: {}
+[77.847839] (-) TimerEvent: {}
+[77.859444] (hw7code) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/host/src/build/hw7code/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/host/src/build/hw7code', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '3310', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/robotws', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '6943', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/ubuntu/robotws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/primary:@/tmp/.ICE-unix/3452,unix/primary:/tmp/.ICE-unix/3452', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a4d664f7_34f2_4d1d_9d53_2850a946d6a8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.135', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/home/ubuntu/robotws/install/atlas_description:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/host/src/build/hw7code', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/host/src/build/hw7code/prefix_override:/home/ubuntu/host/src/install/hw7code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw7code:/home/ubuntu/robotws/install/hw7code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw6code:/home/ubuntu/robotws/install/hw6code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw5code:/home/ubuntu/robotws/install/hw5code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw4code:/home/ubuntu/robotws/install/hw4code/lib/python3.10/site-packages:/home/ubuntu/robotws/build/hw3code:/home/ubuntu/robotws/install/hw3code/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/robotws/install/atlas_description'}, 'shell': False}
+[77.990534] (-) TimerEvent: {}
+[78.095384] (-) TimerEvent: {}
+[78.200584] (-) TimerEvent: {}
+[78.305668] (-) TimerEvent: {}
+[78.408479] (-) TimerEvent: {}
+[78.509883] (-) TimerEvent: {}
+[78.612681] (-) TimerEvent: {}
+[78.715256] (-) TimerEvent: {}
+[78.818538] (-) TimerEvent: {}
+[78.921948] (-) TimerEvent: {}
+[79.026061] (-) TimerEvent: {}
+[79.136821] (-) TimerEvent: {}
+[79.240201] (-) TimerEvent: {}
+[79.344396] (-) TimerEvent: {}
+[79.447731] (-) TimerEvent: {}
+[79.551237] (-) TimerEvent: {}
+[79.655281] (-) TimerEvent: {}
+[79.758299] (-) TimerEvent: {}
+[79.860896] (-) TimerEvent: {}
+[79.964686] (-) TimerEvent: {}
+[80.068319] (-) TimerEvent: {}
+[80.172394] (-) TimerEvent: {}
+[80.276382] (-) TimerEvent: {}
+[80.378633] (-) TimerEvent: {}
+[80.403882] (hw7code) StdoutLine: {'line': b'running develop\n'}
+[80.410196] (hw7code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[80.413205] (hw7code) StderrLine: {'line': b'  warnings.warn(\n'}
+[80.414916] (hw7code) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[80.425420] (hw7code) StderrLine: {'line': b'  warnings.warn(\n'}
+[80.482551] (-) TimerEvent: {}
+[80.585902] (-) TimerEvent: {}
+[80.689227] (-) TimerEvent: {}
+[80.793614] (-) TimerEvent: {}
+[80.896975] (-) TimerEvent: {}
+[80.999480] (-) TimerEvent: {}
+[81.101775] (-) TimerEvent: {}
+[81.189075] (hw7code) StdoutLine: {'line': b'running egg_info\n'}
+[81.198050] (hw7code) StdoutLine: {'line': b'creating hw7code.egg-info\n'}
+[81.203365] (-) TimerEvent: {}
+[81.217151] (hw7code) StdoutLine: {'line': b'writing hw7code.egg-info/PKG-INFO\n'}
+[81.266036] (hw7code) StdoutLine: {'line': b'writing dependency_links to hw7code.egg-info/dependency_links.txt\n'}
+[81.298407] (hw7code) StdoutLine: {'line': b'writing entry points to hw7code.egg-info/entry_points.txt\n'}
+[81.305055] (-) TimerEvent: {}
+[81.319841] (hw7code) StdoutLine: {'line': b'writing requirements to hw7code.egg-info/requires.txt\n'}
+[81.341089] (hw7code) StdoutLine: {'line': b'writing top-level names to hw7code.egg-info/top_level.txt\n'}
+[81.369827] (hw7code) StdoutLine: {'line': b"writing manifest file 'hw7code.egg-info/SOURCES.txt'\n"}
+[81.406578] (-) TimerEvent: {}
+[81.513190] (-) TimerEvent: {}
+[81.616093] (-) TimerEvent: {}
+[81.719622] (-) TimerEvent: {}
+[81.823132] (-) TimerEvent: {}
+[81.925841] (-) TimerEvent: {}
+[82.029542] (-) TimerEvent: {}
+[82.116404] (hw7code) StdoutLine: {'line': b"reading manifest file 'hw7code.egg-info/SOURCES.txt'\n"}
+[82.130607] (-) TimerEvent: {}
+[82.166758] (hw7code) StdoutLine: {'line': b"writing manifest file 'hw7code.egg-info/SOURCES.txt'\n"}
+[82.202972] (hw7code) StdoutLine: {'line': b'running build_ext\n'}
+[82.207606] (hw7code) StdoutLine: {'line': b'Creating /home/ubuntu/host/src/install/hw7code/lib/python3.10/site-packages/hw7code.egg-link (link to .)\n'}
+[82.231618] (-) TimerEvent: {}
+[82.283393] (hw7code) StdoutLine: {'line': b'Installing hw7p2 script to /home/ubuntu/host/src/install/hw7code/lib/hw7code\n'}
+[82.322064] (hw7code) StdoutLine: {'line': b'Installing hw7p3 script to /home/ubuntu/host/src/install/hw7code/lib/hw7code\n'}
+[82.333319] (-) TimerEvent: {}
+[82.358863] (hw7code) StdoutLine: {'line': b'Installing hw7p4 script to /home/ubuntu/host/src/install/hw7code/lib/hw7code\n'}
+[82.420585] (hw7code) StdoutLine: {'line': b'\n'}
+[82.422405] (hw7code) StdoutLine: {'line': b'Installed /home/ubuntu/host/src/build/hw7code\n'}
+[82.433029] (hw7code) StdoutLine: {'line': b'running install_data\n'}
+[82.442128] (-) TimerEvent: {}
+[82.456602] (hw7code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw7code/share/ament_index\n'}
+[82.472725] (hw7code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw7code/share/ament_index/resource_index\n'}
+[82.484819] (hw7code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw7code/share/ament_index/resource_index/packages\n'}
+[82.507024] (hw7code) StdoutLine: {'line': b'copying resource/hw7code -> /home/ubuntu/host/src/install/hw7code/share/ament_index/resource_index/packages\n'}
+[82.546699] (-) TimerEvent: {}
+[82.567379] (hw7code) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/host/src/install/hw7code/share/hw7code\n'}
+[82.628264] (hw7code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw7code/share/hw7code/launch\n'}
+[82.644282] (hw7code) StdoutLine: {'line': b'copying launch/hw7p2.launch.py -> /home/ubuntu/host/src/install/hw7code/share/hw7code/launch\n'}
+[82.654905] (-) TimerEvent: {}
+[82.704466] (hw7code) StdoutLine: {'line': b'copying launch/hw7p3.launch.py -> /home/ubuntu/host/src/install/hw7code/share/hw7code/launch\n'}
+[82.756725] (-) TimerEvent: {}
+[82.761443] (hw7code) StdoutLine: {'line': b'copying launch/hw7p4.launch.py -> /home/ubuntu/host/src/install/hw7code/share/hw7code/launch\n'}
+[82.822197] (hw7code) StdoutLine: {'line': b'creating /home/ubuntu/host/src/install/hw7code/share/hw7code/urdf\n'}
+[82.839717] (hw7code) StdoutLine: {'line': b'copying urdf/sevenDOF.urdf -> /home/ubuntu/host/src/install/hw7code/share/hw7code/urdf\n'}
+[82.857307] (-) TimerEvent: {}
+[82.899441] (hw7code) StdoutLine: {'line': b'copying urdf/sevenDOF_Obstacle.urdf -> /home/ubuntu/host/src/install/hw7code/share/hw7code/urdf\n'}
+[82.958507] (-) TimerEvent: {}
+[83.021228] (hw7code) CommandEnded: {'returncode': 0}
+[83.059988] (-) TimerEvent: {}
+[83.175594] (-) TimerEvent: {}
+[83.282142] (-) TimerEvent: {}
+[83.387995] (-) TimerEvent: {}
+[83.494448] (-) TimerEvent: {}
+[83.599051] (-) TimerEvent: {}
+[83.702529] (-) TimerEvent: {}
+[83.807199] (-) TimerEvent: {}
+[83.845663] (hw7code) JobEnded: {'identifier': 'hw7code', 'rc': 0}
+[83.870532] (-) EventReactorShutdown: {}

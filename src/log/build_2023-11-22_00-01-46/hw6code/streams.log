@@ -1,0 +1,45 @@
+[14.936s] Invoking command in '/home/ubuntu/host/src/build/hw6code': PYTHONPATH=/home/ubuntu/host/src/build/hw6code/prefix_override:/home/ubuntu/host/src/install/hw6code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw6code/build --no-deps install_data
+[24.247s] running develop
+[24.256s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[24.258s]   warnings.warn(
+[24.263s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[24.288s]   warnings.warn(
+[27.751s] running egg_info
+[27.759s] creating hw6code.egg-info
+[27.848s] writing hw6code.egg-info/PKG-INFO
+[27.948s] writing dependency_links to hw6code.egg-info/dependency_links.txt
+[28.044s] writing entry points to hw6code.egg-info/entry_points.txt
+[28.111s] writing requirements to hw6code.egg-info/requires.txt
+[28.157s] writing top-level names to hw6code.egg-info/top_level.txt
+[28.195s] writing manifest file 'hw6code.egg-info/SOURCES.txt'
+[30.255s] reading manifest file 'hw6code.egg-info/SOURCES.txt'
+[30.562s] writing manifest file 'hw6code.egg-info/SOURCES.txt'
+[30.910s] running build_ext
+[30.912s] Creating /home/ubuntu/host/src/install/hw6code/lib/python3.10/site-packages/hw6code.egg-link (link to .)
+[31.000s] Installing hw6p3 script to /home/ubuntu/host/src/install/hw6code/lib/hw6code
+[31.197s] Installing hw6p4 script to /home/ubuntu/host/src/install/hw6code/lib/hw6code
+[31.303s] Installing hw6p5 script to /home/ubuntu/host/src/install/hw6code/lib/hw6code
+[31.464s] 
+[31.494s] Installed /home/ubuntu/host/src/build/hw6code
+[31.502s] running install_data
+[31.550s] creating /home/ubuntu/host/src/install/hw6code/share/ament_index
+[31.603s] creating /home/ubuntu/host/src/install/hw6code/share/ament_index/resource_index
+[31.654s] creating /home/ubuntu/host/src/install/hw6code/share/ament_index/resource_index/packages
+[31.705s] copying resource/hw6code -> /home/ubuntu/host/src/install/hw6code/share/ament_index/resource_index/packages
+[31.959s] copying package.xml -> /home/ubuntu/host/src/install/hw6code/share/hw6code
+[32.199s] creating /home/ubuntu/host/src/install/hw6code/share/hw6code/launch
+[32.212s] copying launch/hw6p3.launch.py -> /home/ubuntu/host/src/install/hw6code/share/hw6code/launch
+[32.354s] copying launch/hw6p4.launch.py -> /home/ubuntu/host/src/install/hw6code/share/hw6code/launch
+[32.547s] copying launch/hw6p5.launch.py -> /home/ubuntu/host/src/install/hw6code/share/hw6code/launch
+[32.813s] creating /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes
+[33.161s] copying meshes/Cube.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes
+[33.192s] copying meshes/CubePlus.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes
+[33.506s] copying meshes/GimbalBase.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes
+[33.909s] copying meshes/GimbalLowerArm.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes
+[34.399s] copying meshes/GimbalUpperArm.dae -> /home/ubuntu/host/src/install/hw6code/share/hw6code/meshes
+[34.556s] creating /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf
+[35.599s] copying urdf/gimbal.urdf -> /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf
+[35.894s] copying urdf/sixDOF.urdf -> /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf
+[36.115s] copying urdf/sixDOF_Obstacle.urdf -> /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf
+[36.494s] copying urdf/sixDOF_Paddle.urdf -> /home/ubuntu/host/src/install/hw6code/share/hw6code/urdf
+[46.394s] Invoked command in '/home/ubuntu/host/src/build/hw6code' returned '0': PYTHONPATH=/home/ubuntu/host/src/build/hw6code/prefix_override:/home/ubuntu/host/src/install/hw6code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw6code/build --no-deps install_data

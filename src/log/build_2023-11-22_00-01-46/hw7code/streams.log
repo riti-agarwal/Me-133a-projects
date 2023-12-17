@@ -1,0 +1,37 @@
+[22.555s] Invoking command in '/home/ubuntu/host/src/build/hw7code': PYTHONPATH=/home/ubuntu/host/src/build/hw7code/prefix_override:/home/ubuntu/host/src/install/hw7code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw7code/build --no-deps install_data
+[24.983s] running develop
+[24.988s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[24.992s]   warnings.warn(
+[25.000s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[25.005s]   warnings.warn(
+[25.772s] running egg_info
+[25.779s] creating hw7code.egg-info
+[25.798s] writing hw7code.egg-info/PKG-INFO
+[25.848s] writing dependency_links to hw7code.egg-info/dependency_links.txt
+[25.879s] writing entry points to hw7code.egg-info/entry_points.txt
+[25.903s] writing requirements to hw7code.egg-info/requires.txt
+[25.928s] writing top-level names to hw7code.egg-info/top_level.txt
+[25.960s] writing manifest file 'hw7code.egg-info/SOURCES.txt'
+[26.697s] reading manifest file 'hw7code.egg-info/SOURCES.txt'
+[26.751s] writing manifest file 'hw7code.egg-info/SOURCES.txt'
+[26.784s] running build_ext
+[26.794s] Creating /home/ubuntu/host/src/install/hw7code/lib/python3.10/site-packages/hw7code.egg-link (link to .)
+[26.861s] Installing hw7p2 script to /home/ubuntu/host/src/install/hw7code/lib/hw7code
+[26.902s] Installing hw7p3 script to /home/ubuntu/host/src/install/hw7code/lib/hw7code
+[26.940s] Installing hw7p4 script to /home/ubuntu/host/src/install/hw7code/lib/hw7code
+[26.998s] 
+[27.003s] Installed /home/ubuntu/host/src/build/hw7code
+[27.015s] running install_data
+[27.040s] creating /home/ubuntu/host/src/install/hw7code/share/ament_index
+[27.055s] creating /home/ubuntu/host/src/install/hw7code/share/ament_index/resource_index
+[27.072s] creating /home/ubuntu/host/src/install/hw7code/share/ament_index/resource_index/packages
+[27.085s] copying resource/hw7code -> /home/ubuntu/host/src/install/hw7code/share/ament_index/resource_index/packages
+[27.148s] copying package.xml -> /home/ubuntu/host/src/install/hw7code/share/hw7code
+[27.210s] creating /home/ubuntu/host/src/install/hw7code/share/hw7code/launch
+[27.230s] copying launch/hw7p2.launch.py -> /home/ubuntu/host/src/install/hw7code/share/hw7code/launch
+[27.286s] copying launch/hw7p3.launch.py -> /home/ubuntu/host/src/install/hw7code/share/hw7code/launch
+[27.342s] copying launch/hw7p4.launch.py -> /home/ubuntu/host/src/install/hw7code/share/hw7code/launch
+[27.404s] creating /home/ubuntu/host/src/install/hw7code/share/hw7code/urdf
+[27.424s] copying urdf/sevenDOF.urdf -> /home/ubuntu/host/src/install/hw7code/share/hw7code/urdf
+[27.478s] copying urdf/sevenDOF_Obstacle.urdf -> /home/ubuntu/host/src/install/hw7code/share/hw7code/urdf
+[27.611s] Invoked command in '/home/ubuntu/host/src/build/hw7code' returned '0': PYTHONPATH=/home/ubuntu/host/src/build/hw7code/prefix_override:/home/ubuntu/host/src/install/hw7code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw7code/build --no-deps install_data

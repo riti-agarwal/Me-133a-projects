@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating hw5code.egg-info
+writing hw5code.egg-info/PKG-INFO
+writing dependency_links to hw5code.egg-info/dependency_links.txt
+writing entry points to hw5code.egg-info/entry_points.txt
+writing requirements to hw5code.egg-info/requires.txt
+writing top-level names to hw5code.egg-info/top_level.txt
+writing manifest file 'hw5code.egg-info/SOURCES.txt'
+reading manifest file 'hw5code.egg-info/SOURCES.txt'
+writing manifest file 'hw5code.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/host/src/install/hw5code/lib/python3.10/site-packages/hw5code.egg-link (link to .)
+Installing hw5p1 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code
+Installing hw5p2 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code
+Installing hw5p3 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code
+Installing hw5p4 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code
+Installing hw5p5 script to /home/ubuntu/host/src/install/hw5code/lib/hw5code
+
+Installed /home/ubuntu/host/src/build/hw5code
+running install_data
+creating /home/ubuntu/host/src/install/hw5code/share/ament_index
+creating /home/ubuntu/host/src/install/hw5code/share/ament_index/resource_index
+creating /home/ubuntu/host/src/install/hw5code/share/ament_index/resource_index/packages
+copying resource/hw5code -> /home/ubuntu/host/src/install/hw5code/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/host/src/install/hw5code/share/hw5code
+creating /home/ubuntu/host/src/install/hw5code/share/hw5code/urdf
+copying urdf/threeDOF.urdf -> /home/ubuntu/host/src/install/hw5code/share/hw5code/urdf

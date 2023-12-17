@@ -1,0 +1,551 @@
+[3.052s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[3.053s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5646eb2ce0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5646f021a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5646f021a0>>)
+[3.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.282s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/host/src'
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extensions ['ignore', 'ignore_ament_install']
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extension 'ignore'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extension 'ignore_ament_install'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extensions ['colcon_pkg']
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extension 'colcon_pkg'
+[3.426s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extensions ['colcon_meta']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extension 'colcon_meta'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extensions ['ros']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extension 'ros'
+[3.441s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extensions ['cmake', 'python']
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extension 'cmake'
+[3.446s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extension 'python'
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extensions ['python_setup_py']
+[3.451s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description) by extension 'python_setup_py'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extension 'ignore'
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extension 'ignore_ament_install'
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extensions ['colcon_pkg']
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extension 'colcon_pkg'
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extensions ['colcon_meta']
+[3.495s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extension 'colcon_meta'
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extensions ['ros']
+[3.498s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extension 'ros'
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extensions ['cmake', 'python']
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extension 'cmake'
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extension 'python'
+[3.537s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extensions ['python_setup_py']
+[3.539s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX) by extension 'python_setup_py'
+[3.574s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extensions ['ignore', 'ignore_ament_install']
+[3.575s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extension 'ignore'
+[3.579s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extension 'ignore_ament_install'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extensions ['colcon_pkg']
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extension 'colcon_pkg'
+[3.590s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extensions ['colcon_meta']
+[3.591s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extension 'colcon_meta'
+[3.592s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extensions ['ros']
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extension 'ros'
+[3.606s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extensions ['cmake', 'python']
+[3.607s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extension 'cmake'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extension 'python'
+[3.615s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extensions ['python_setup_py']
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description) by extension 'python_setup_py'
+[3.631s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extensions ['ignore', 'ignore_ament_install']
+[3.632s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extension 'ignore'
+[3.636s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extension 'ignore_ament_install'
+[3.643s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extensions ['colcon_pkg']
+[3.644s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extension 'colcon_pkg'
+[3.648s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extensions ['colcon_meta']
+[3.649s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extension 'colcon_meta'
+[3.656s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extensions ['ros']
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extension 'ros'
+[3.672s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extensions ['cmake', 'python']
+[3.673s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extension 'cmake'
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extension 'python'
+[3.681s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extensions ['python_setup_py']
+[3.681s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/launch) by extension 'python_setup_py'
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extensions ['ignore', 'ignore_ament_install']
+[3.711s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extension 'ignore'
+[3.716s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extension 'ignore_ament_install'
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extensions ['colcon_pkg']
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extension 'colcon_pkg'
+[3.732s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extensions ['colcon_meta']
+[3.732s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extension 'colcon_meta'
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extensions ['ros']
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extension 'ros'
+[3.772s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extensions ['cmake', 'python']
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extension 'cmake'
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extension 'python'
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extensions ['python_setup_py']
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials) by extension 'python_setup_py'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extension 'ignore'
+[3.822s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extension 'ignore_ament_install'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extensions ['colcon_pkg']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extension 'colcon_pkg'
+[3.834s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extensions ['colcon_meta']
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extension 'colcon_meta'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extensions ['ros']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extension 'ros'
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extensions ['cmake', 'python']
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extension 'cmake'
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extension 'python'
+[3.865s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extensions ['python_setup_py']
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/materials/textures) by extension 'python_setup_py'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extensions ['ignore', 'ignore_ament_install']
+[3.887s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extension 'ignore'
+[3.891s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extension 'ignore_ament_install'
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extensions ['colcon_pkg']
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extension 'colcon_pkg'
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extensions ['colcon_meta']
+[3.907s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extension 'colcon_meta'
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extensions ['ros']
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extension 'ros'
+[3.927s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extensions ['cmake', 'python']
+[3.928s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extension 'cmake'
+[3.933s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extension 'python'
+[3.938s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extensions ['python_setup_py']
+[3.939s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes) by extension 'python_setup_py'
+[3.984s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extensions ['ignore', 'ignore_ament_install']
+[3.985s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extension 'ignore'
+[3.992s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extension 'ignore_ament_install'
+[3.999s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extensions ['colcon_pkg']
+[4.000s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extension 'colcon_pkg'
+[4.005s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extensions ['colcon_meta']
+[4.005s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extension 'colcon_meta'
+[4.007s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extensions ['ros']
+[4.011s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extension 'ros'
+[4.023s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extensions ['cmake', 'python']
+[4.024s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extension 'cmake'
+[4.029s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extension 'python'
+[4.033s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extensions ['python_setup_py']
+[4.034s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/meshes_unplugged) by extension 'python_setup_py'
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extensions ['ignore', 'ignore_ament_install']
+[4.055s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extension 'ignore'
+[4.059s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extension 'ignore_ament_install'
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extensions ['colcon_pkg']
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extension 'colcon_pkg'
+[4.077s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extensions ['colcon_meta']
+[4.078s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extension 'colcon_meta'
+[4.080s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extensions ['ros']
+[4.082s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extension 'ros'
+[4.097s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extensions ['cmake', 'python']
+[4.098s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extension 'cmake'
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extension 'python'
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extensions ['python_setup_py']
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/rviz) by extension 'python_setup_py'
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extensions ['ignore', 'ignore_ament_install']
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extension 'ignore'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extension 'ignore_ament_install'
+[4.148s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extensions ['colcon_pkg']
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extension 'colcon_pkg'
+[4.154s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extensions ['colcon_meta']
+[4.155s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extension 'colcon_meta'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extensions ['ros']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extension 'ros'
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extensions ['cmake', 'python']
+[4.174s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extension 'cmake'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extension 'python'
+[4.184s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extensions ['python_setup_py']
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/src) by extension 'python_setup_py'
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extensions ['ignore', 'ignore_ament_install']
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extension 'ignore'
+[4.228s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extension 'ignore_ament_install'
+[4.235s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extensions ['colcon_pkg']
+[4.236s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extension 'colcon_pkg'
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extensions ['colcon_meta']
+[4.242s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extension 'colcon_meta'
+[4.243s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extensions ['ros']
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extension 'ros'
+[4.257s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extensions ['cmake', 'python']
+[4.258s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extension 'cmake'
+[4.263s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extension 'python'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extensions ['python_setup_py']
+[4.268s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/__MACOSX/atlas_description/urdf) by extension 'python_setup_py'
+[4.295s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/atlas_description) by extensions ['ignore', 'ignore_ament_install']
+[4.297s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/atlas_description) by extension 'ignore'
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/atlas_description) by extension 'ignore_ament_install'
+[4.309s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/atlas_description) by extensions ['colcon_pkg']
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/atlas_description) by extension 'colcon_pkg'
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/atlas_description) by extensions ['colcon_meta']
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/atlas_description) by extension 'colcon_meta'
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/atlas_description) by extensions ['ros']
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(atlas_description/atlas_description) by extension 'ros'
+[4.347s] DEBUG:colcon.colcon_core.package_identification:Package 'atlas_description/atlas_description' with type 'ros.ament_cmake' and name 'atlas_description'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.387s] Level 1:colcon.colcon_core.package_identification:_identify(hw3code) by extensions ['ignore', 'ignore_ament_install']
+[4.388s] Level 1:colcon.colcon_core.package_identification:_identify(hw3code) by extension 'ignore'
+[4.393s] Level 1:colcon.colcon_core.package_identification:_identify(hw3code) by extension 'ignore_ament_install'
+[4.401s] Level 1:colcon.colcon_core.package_identification:_identify(hw3code) by extensions ['colcon_pkg']
+[4.402s] Level 1:colcon.colcon_core.package_identification:_identify(hw3code) by extension 'colcon_pkg'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(hw3code) by extensions ['colcon_meta']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(hw3code) by extension 'colcon_meta'
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(hw3code) by extensions ['ros']
+[4.420s] Level 1:colcon.colcon_core.package_identification:_identify(hw3code) by extension 'ros'
+[4.446s] DEBUG:colcon.colcon_core.package_identification:Package 'hw3code' with type 'ros.ament_python' and name 'hw3code'
+[4.467s] Level 1:colcon.colcon_core.package_identification:_identify(hw4code) by extensions ['ignore', 'ignore_ament_install']
+[4.470s] Level 1:colcon.colcon_core.package_identification:_identify(hw4code) by extension 'ignore'
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(hw4code) by extension 'ignore_ament_install'
+[4.482s] Level 1:colcon.colcon_core.package_identification:_identify(hw4code) by extensions ['colcon_pkg']
+[4.483s] Level 1:colcon.colcon_core.package_identification:_identify(hw4code) by extension 'colcon_pkg'
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(hw4code) by extensions ['colcon_meta']
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(hw4code) by extension 'colcon_meta'
+[4.490s] Level 1:colcon.colcon_core.package_identification:_identify(hw4code) by extensions ['ros']
+[4.490s] Level 1:colcon.colcon_core.package_identification:_identify(hw4code) by extension 'ros'
+[4.508s] DEBUG:colcon.colcon_core.package_identification:Package 'hw4code' with type 'ros.ament_python' and name 'hw4code'
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(hw5code) by extensions ['ignore', 'ignore_ament_install']
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(hw5code) by extension 'ignore'
+[4.545s] Level 1:colcon.colcon_core.package_identification:_identify(hw5code) by extension 'ignore_ament_install'
+[4.555s] Level 1:colcon.colcon_core.package_identification:_identify(hw5code) by extensions ['colcon_pkg']
+[4.556s] Level 1:colcon.colcon_core.package_identification:_identify(hw5code) by extension 'colcon_pkg'
+[4.562s] Level 1:colcon.colcon_core.package_identification:_identify(hw5code) by extensions ['colcon_meta']
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(hw5code) by extension 'colcon_meta'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(hw5code) by extensions ['ros']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(hw5code) by extension 'ros'
+[4.587s] DEBUG:colcon.colcon_core.package_identification:Package 'hw5code' with type 'ros.ament_python' and name 'hw5code'
+[4.613s] Level 1:colcon.colcon_core.package_identification:_identify(hw6code) by extensions ['ignore', 'ignore_ament_install']
+[4.614s] Level 1:colcon.colcon_core.package_identification:_identify(hw6code) by extension 'ignore'
+[4.618s] Level 1:colcon.colcon_core.package_identification:_identify(hw6code) by extension 'ignore_ament_install'
+[4.627s] Level 1:colcon.colcon_core.package_identification:_identify(hw6code) by extensions ['colcon_pkg']
+[4.628s] Level 1:colcon.colcon_core.package_identification:_identify(hw6code) by extension 'colcon_pkg'
+[4.633s] Level 1:colcon.colcon_core.package_identification:_identify(hw6code) by extensions ['colcon_meta']
+[4.634s] Level 1:colcon.colcon_core.package_identification:_identify(hw6code) by extension 'colcon_meta'
+[4.635s] Level 1:colcon.colcon_core.package_identification:_identify(hw6code) by extensions ['ros']
+[4.636s] Level 1:colcon.colcon_core.package_identification:_identify(hw6code) by extension 'ros'
+[4.656s] DEBUG:colcon.colcon_core.package_identification:Package 'hw6code' with type 'ros.ament_python' and name 'hw6code'
+[4.680s] Level 1:colcon.colcon_core.package_identification:_identify(hw7code) by extensions ['ignore', 'ignore_ament_install']
+[4.681s] Level 1:colcon.colcon_core.package_identification:_identify(hw7code) by extension 'ignore'
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(hw7code) by extension 'ignore_ament_install'
+[4.697s] Level 1:colcon.colcon_core.package_identification:_identify(hw7code) by extensions ['colcon_pkg']
+[4.699s] Level 1:colcon.colcon_core.package_identification:_identify(hw7code) by extension 'colcon_pkg'
+[4.705s] Level 1:colcon.colcon_core.package_identification:_identify(hw7code) by extensions ['colcon_meta']
+[4.706s] Level 1:colcon.colcon_core.package_identification:_identify(hw7code) by extension 'colcon_meta'
+[4.708s] Level 1:colcon.colcon_core.package_identification:_identify(hw7code) by extensions ['ros']
+[4.709s] Level 1:colcon.colcon_core.package_identification:_identify(hw7code) by extension 'ros'
+[4.730s] DEBUG:colcon.colcon_core.package_identification:Package 'hw7code' with type 'ros.ament_python' and name 'hw7code'
+[4.746s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.747s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.748s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.773s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.775s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ubuntu/robotws/install
+[6.023s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 418 installed packages in /opt/ros/humble
+[6.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.640s] Level 5:colcon.colcon_core.verb:set package 'atlas_description' build argument 'cmake_args' from command line to 'None'
+[6.641s] Level 5:colcon.colcon_core.verb:set package 'atlas_description' build argument 'cmake_target' from command line to 'None'
+[6.642s] Level 5:colcon.colcon_core.verb:set package 'atlas_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.643s] Level 5:colcon.colcon_core.verb:set package 'atlas_description' build argument 'cmake_clean_cache' from command line to 'False'
+[6.645s] Level 5:colcon.colcon_core.verb:set package 'atlas_description' build argument 'cmake_clean_first' from command line to 'False'
+[6.646s] Level 5:colcon.colcon_core.verb:set package 'atlas_description' build argument 'cmake_force_configure' from command line to 'False'
+[6.648s] Level 5:colcon.colcon_core.verb:set package 'atlas_description' build argument 'ament_cmake_args' from command line to 'None'
+[6.650s] Level 5:colcon.colcon_core.verb:set package 'atlas_description' build argument 'catkin_cmake_args' from command line to 'None'
+[6.652s] Level 5:colcon.colcon_core.verb:set package 'atlas_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.654s] DEBUG:colcon.colcon_core.verb:Building package 'atlas_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/host/src/build/atlas_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/host/src/install/atlas_description', 'merge_install': False, 'path': '/home/ubuntu/host/src/atlas_description/atlas_description', 'symlink_install': True, 'test_result_base': None}
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'hw3code' build argument 'cmake_args' from command line to 'None'
+[6.734s] Level 5:colcon.colcon_core.verb:set package 'hw3code' build argument 'cmake_target' from command line to 'None'
+[6.736s] Level 5:colcon.colcon_core.verb:set package 'hw3code' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.739s] Level 5:colcon.colcon_core.verb:set package 'hw3code' build argument 'cmake_clean_cache' from command line to 'False'
+[6.740s] Level 5:colcon.colcon_core.verb:set package 'hw3code' build argument 'cmake_clean_first' from command line to 'False'
+[6.742s] Level 5:colcon.colcon_core.verb:set package 'hw3code' build argument 'cmake_force_configure' from command line to 'False'
+[6.743s] Level 5:colcon.colcon_core.verb:set package 'hw3code' build argument 'ament_cmake_args' from command line to 'None'
+[6.745s] Level 5:colcon.colcon_core.verb:set package 'hw3code' build argument 'catkin_cmake_args' from command line to 'None'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'hw3code' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.748s] DEBUG:colcon.colcon_core.verb:Building package 'hw3code' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/host/src/build/hw3code', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/host/src/install/hw3code', 'merge_install': False, 'path': '/home/ubuntu/host/src/hw3code', 'symlink_install': True, 'test_result_base': None}
+[6.829s] Level 5:colcon.colcon_core.verb:set package 'hw4code' build argument 'cmake_args' from command line to 'None'
+[6.830s] Level 5:colcon.colcon_core.verb:set package 'hw4code' build argument 'cmake_target' from command line to 'None'
+[6.832s] Level 5:colcon.colcon_core.verb:set package 'hw4code' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.833s] Level 5:colcon.colcon_core.verb:set package 'hw4code' build argument 'cmake_clean_cache' from command line to 'False'
+[6.835s] Level 5:colcon.colcon_core.verb:set package 'hw4code' build argument 'cmake_clean_first' from command line to 'False'
+[6.837s] Level 5:colcon.colcon_core.verb:set package 'hw4code' build argument 'cmake_force_configure' from command line to 'False'
+[6.838s] Level 5:colcon.colcon_core.verb:set package 'hw4code' build argument 'ament_cmake_args' from command line to 'None'
+[6.839s] Level 5:colcon.colcon_core.verb:set package 'hw4code' build argument 'catkin_cmake_args' from command line to 'None'
+[6.839s] Level 5:colcon.colcon_core.verb:set package 'hw4code' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.841s] DEBUG:colcon.colcon_core.verb:Building package 'hw4code' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/host/src/build/hw4code', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/host/src/install/hw4code', 'merge_install': False, 'path': '/home/ubuntu/host/src/hw4code', 'symlink_install': True, 'test_result_base': None}
+[7.049s] Level 5:colcon.colcon_core.verb:set package 'hw5code' build argument 'cmake_args' from command line to 'None'
+[7.050s] Level 5:colcon.colcon_core.verb:set package 'hw5code' build argument 'cmake_target' from command line to 'None'
+[7.051s] Level 5:colcon.colcon_core.verb:set package 'hw5code' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.056s] Level 5:colcon.colcon_core.verb:set package 'hw5code' build argument 'cmake_clean_cache' from command line to 'False'
+[7.058s] Level 5:colcon.colcon_core.verb:set package 'hw5code' build argument 'cmake_clean_first' from command line to 'False'
+[7.060s] Level 5:colcon.colcon_core.verb:set package 'hw5code' build argument 'cmake_force_configure' from command line to 'False'
+[7.067s] Level 5:colcon.colcon_core.verb:set package 'hw5code' build argument 'ament_cmake_args' from command line to 'None'
+[7.068s] Level 5:colcon.colcon_core.verb:set package 'hw5code' build argument 'catkin_cmake_args' from command line to 'None'
+[7.073s] Level 5:colcon.colcon_core.verb:set package 'hw5code' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.076s] DEBUG:colcon.colcon_core.verb:Building package 'hw5code' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/host/src/build/hw5code', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/host/src/install/hw5code', 'merge_install': False, 'path': '/home/ubuntu/host/src/hw5code', 'symlink_install': True, 'test_result_base': None}
+[7.140s] Level 5:colcon.colcon_core.verb:set package 'hw6code' build argument 'cmake_args' from command line to 'None'
+[7.141s] Level 5:colcon.colcon_core.verb:set package 'hw6code' build argument 'cmake_target' from command line to 'None'
+[7.143s] Level 5:colcon.colcon_core.verb:set package 'hw6code' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.146s] Level 5:colcon.colcon_core.verb:set package 'hw6code' build argument 'cmake_clean_cache' from command line to 'False'
+[7.147s] Level 5:colcon.colcon_core.verb:set package 'hw6code' build argument 'cmake_clean_first' from command line to 'False'
+[7.149s] Level 5:colcon.colcon_core.verb:set package 'hw6code' build argument 'cmake_force_configure' from command line to 'False'
+[7.150s] Level 5:colcon.colcon_core.verb:set package 'hw6code' build argument 'ament_cmake_args' from command line to 'None'
+[7.152s] Level 5:colcon.colcon_core.verb:set package 'hw6code' build argument 'catkin_cmake_args' from command line to 'None'
+[7.154s] Level 5:colcon.colcon_core.verb:set package 'hw6code' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.155s] DEBUG:colcon.colcon_core.verb:Building package 'hw6code' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/host/src/build/hw6code', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/host/src/install/hw6code', 'merge_install': False, 'path': '/home/ubuntu/host/src/hw6code', 'symlink_install': True, 'test_result_base': None}
+[7.209s] Level 5:colcon.colcon_core.verb:set package 'hw7code' build argument 'cmake_args' from command line to 'None'
+[7.211s] Level 5:colcon.colcon_core.verb:set package 'hw7code' build argument 'cmake_target' from command line to 'None'
+[7.212s] Level 5:colcon.colcon_core.verb:set package 'hw7code' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.214s] Level 5:colcon.colcon_core.verb:set package 'hw7code' build argument 'cmake_clean_cache' from command line to 'False'
+[7.215s] Level 5:colcon.colcon_core.verb:set package 'hw7code' build argument 'cmake_clean_first' from command line to 'False'
+[7.217s] Level 5:colcon.colcon_core.verb:set package 'hw7code' build argument 'cmake_force_configure' from command line to 'False'
+[7.219s] Level 5:colcon.colcon_core.verb:set package 'hw7code' build argument 'ament_cmake_args' from command line to 'None'
+[7.221s] Level 5:colcon.colcon_core.verb:set package 'hw7code' build argument 'catkin_cmake_args' from command line to 'None'
+[7.223s] Level 5:colcon.colcon_core.verb:set package 'hw7code' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.224s] DEBUG:colcon.colcon_core.verb:Building package 'hw7code' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/host/src/build/hw7code', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/host/src/install/hw7code', 'merge_install': False, 'path': '/home/ubuntu/host/src/hw7code', 'symlink_install': True, 'test_result_base': None}
+[7.266s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.310s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/host/src/atlas_description/atlas_description' with build type 'ament_cmake'
+[7.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/host/src/atlas_description/atlas_description'
+[7.400s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.605s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/host/src/hw3code' with build type 'ament_python'
+[7.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3code', 'ament_prefix_path')
+[7.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw3code/share/hw3code/hook/ament_prefix_path.ps1'
+[7.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw3code/share/hw3code/hook/ament_prefix_path.dsv'
+[7.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw3code/share/hw3code/hook/ament_prefix_path.sh'
+[7.915s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.117s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/host/src/hw4code' with build type 'ament_python'
+[8.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4code', 'ament_prefix_path')
+[8.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw4code/share/hw4code/hook/ament_prefix_path.ps1'
+[8.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw4code/share/hw4code/hook/ament_prefix_path.dsv'
+[8.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw4code/share/hw4code/hook/ament_prefix_path.sh'
+[8.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/host/src/build/atlas_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake /home/ubuntu/host/src/atlas_description/atlas_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/host/src/install/atlas_description
+[10.336s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/host/src/hw3code'
+[10.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.421s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/host/src/hw4code'
+[12.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/host/src/build/hw4code': PYTHONPATH=/home/ubuntu/host/src/build/hw4code/prefix_override:/home/ubuntu/host/src/install/hw4code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw4code/build --no-deps install_data
+[17.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/host/src/build/hw3code': PYTHONPATH=/home/ubuntu/host/src/build/hw3code/prefix_override:/home/ubuntu/host/src/install/hw3code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw3code/build --no-deps install_data
+[28.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4code', 'pythonpath_develop')
+[28.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/host/src/build/hw4code' returned '0': PYTHONPATH=/home/ubuntu/host/src/build/hw4code/prefix_override:/home/ubuntu/host/src/install/hw4code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw4code/build --no-deps install_data
+[28.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw4code/share/hw4code/hook/pythonpath_develop.ps1'
+[28.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/build/hw4code/share/hw4code/hook/pythonpath_develop.dsv'
+[28.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw4code/share/hw4code/hook/pythonpath_develop.sh'
+[28.655s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw4code' for CMake module files
+[28.860s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw4code' for CMake config files
+[29.240s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw4code/lib'
+[29.242s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw4code/bin'
+[29.247s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw4code/lib/pkgconfig/hw4code.pc'
+[29.252s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw4code/lib/python3.10/site-packages'
+[29.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4code', 'pythonpath')
+[29.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw4code/share/hw4code/hook/pythonpath.ps1'
+[29.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw4code/share/hw4code/hook/pythonpath.dsv'
+[29.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw4code/share/hw4code/hook/pythonpath.sh'
+[29.482s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw4code/bin'
+[29.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw4code)
+[29.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw4code/share/hw4code/package.ps1'
+[29.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/host/src/install/hw4code/share/hw4code/package.dsv'
+[29.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw4code/share/hw4code/package.sh'
+[29.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw4code/share/hw4code/package.bash'
+[29.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw4code/share/hw4code/package.zsh'
+[29.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/host/src/install/hw4code/share/colcon-core/packages/hw4code)
+[29.875s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/host/src/hw5code' with build type 'ament_python'
+[29.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw5code', 'ament_prefix_path')
+[30.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw5code/share/hw5code/hook/ament_prefix_path.ps1'
+[30.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw5code/share/hw5code/hook/ament_prefix_path.dsv'
+[30.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw5code/share/hw5code/hook/ament_prefix_path.sh'
+[30.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3code', 'pythonpath_develop')
+[30.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/host/src/build/hw3code' returned '0': PYTHONPATH=/home/ubuntu/host/src/build/hw3code/prefix_override:/home/ubuntu/host/src/install/hw3code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw3code/build --no-deps install_data
+[30.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw3code/share/hw3code/hook/pythonpath_develop.ps1'
+[30.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/build/hw3code/share/hw3code/hook/pythonpath_develop.dsv'
+[31.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw3code/share/hw3code/hook/pythonpath_develop.sh'
+[31.115s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw3code' for CMake module files
+[31.227s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw3code' for CMake config files
+[31.360s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw3code/lib'
+[31.363s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw3code/bin'
+[31.372s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw3code/lib/pkgconfig/hw3code.pc'
+[31.380s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw3code/lib/python3.10/site-packages'
+[31.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3code', 'pythonpath')
+[31.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw3code/share/hw3code/hook/pythonpath.ps1'
+[31.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw3code/share/hw3code/hook/pythonpath.dsv'
+[31.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw3code/share/hw3code/hook/pythonpath.sh'
+[31.551s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw3code/bin'
+[31.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw3code)
+[31.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw3code/share/hw3code/package.ps1'
+[31.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/host/src/install/hw3code/share/hw3code/package.dsv'
+[31.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw3code/share/hw3code/package.sh'
+[31.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw3code/share/hw3code/package.bash'
+[31.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw3code/share/hw3code/package.zsh'
+[31.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/host/src/install/hw3code/share/colcon-core/packages/hw3code)
+[31.854s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/host/src/hw6code' with build type 'ament_python'
+[31.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw6code', 'ament_prefix_path')
+[31.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw6code/share/hw6code/hook/ament_prefix_path.ps1'
+[32.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw6code/share/hw6code/hook/ament_prefix_path.dsv'
+[32.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw6code/share/hw6code/hook/ament_prefix_path.sh'
+[32.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/host/src/build/atlas_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake /home/ubuntu/host/src/atlas_description/atlas_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/host/src/install/atlas_description
+[32.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/host/src/build/atlas_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/host/src/build/atlas_description -- -j3 -l3
+[34.012s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/host/src/hw5code'
+[34.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[37.966s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/host/src/hw6code'
+[38.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/host/src/build/atlas_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/host/src/build/atlas_description -- -j3 -l3
+[39.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/host/src/build/atlas_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/host/src/build/atlas_description
+[44.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/host/src/build/hw5code': PYTHONPATH=/home/ubuntu/host/src/build/hw5code/prefix_override:/home/ubuntu/host/src/install/hw5code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw5code/build --no-deps install_data
+[46.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/host/src/build/hw6code': PYTHONPATH=/home/ubuntu/host/src/build/hw6code/prefix_override:/home/ubuntu/host/src/install/hw6code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw6code/build --no-deps install_data
+[58.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw5code', 'pythonpath_develop')
+[58.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/host/src/build/hw5code' returned '0': PYTHONPATH=/home/ubuntu/host/src/build/hw5code/prefix_override:/home/ubuntu/host/src/install/hw5code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw5code/build --no-deps install_data
+[58.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw5code/share/hw5code/hook/pythonpath_develop.ps1'
+[58.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/build/hw5code/share/hw5code/hook/pythonpath_develop.dsv'
+[58.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw5code/share/hw5code/hook/pythonpath_develop.sh'
+[59.163s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw5code' for CMake module files
+[60.007s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw5code' for CMake config files
+[60.985s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw5code/lib'
+[60.985s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw5code/bin'
+[60.992s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw5code/lib/pkgconfig/hw5code.pc'
+[61.044s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw5code/lib/python3.10/site-packages'
+[61.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw5code', 'pythonpath')
+[61.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw5code/share/hw5code/hook/pythonpath.ps1'
+[61.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw5code/share/hw5code/hook/pythonpath.dsv'
+[61.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw5code/share/hw5code/hook/pythonpath.sh'
+[61.538s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw5code/bin'
+[61.543s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw5code)
+[61.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw5code/share/hw5code/package.ps1'
+[61.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/host/src/install/hw5code/share/hw5code/package.dsv'
+[61.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw5code/share/hw5code/package.sh'
+[62.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw5code/share/hw5code/package.bash'
+[62.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw5code/share/hw5code/package.zsh'
+[62.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/host/src/install/hw5code/share/colcon-core/packages/hw5code)
+[62.496s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/host/src/hw7code' with build type 'ament_python'
+[62.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw7code', 'ament_prefix_path')
+[62.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw7code/share/hw7code/hook/ament_prefix_path.ps1'
+[63.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw7code/share/hw7code/hook/ament_prefix_path.dsv'
+[63.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw7code/share/hw7code/hook/ament_prefix_path.sh'
+[63.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[63.966s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[71.615s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/host/src/hw7code'
+[71.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[71.862s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[72.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atlas_description)
+[72.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/host/src/build/atlas_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotws/install/hw7code:/home/ubuntu/robotws/install/hw6code:/home/ubuntu/robotws/install/hw5code:/home/ubuntu/robotws/install/hw4code:/home/ubuntu/robotws/install/hw3code:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/host/src/build/atlas_description
+[72.918s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description' for CMake module files
+[76.257s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description' for CMake config files
+[77.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_description', 'cmake_prefix_path')
+[77.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/hook/cmake_prefix_path.ps1'
+[77.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/hook/cmake_prefix_path.dsv'
+[77.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/hook/cmake_prefix_path.sh'
+[77.609s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description/bin'
+[77.613s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description/lib/pkgconfig/atlas_description.pc'
+[77.619s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description/lib/python3.10/site-packages'
+[77.649s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description/bin'
+[77.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.ps1'
+[77.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.dsv'
+[77.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.sh'
+[78.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.bash'
+[78.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.zsh'
+[78.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/host/src/install/atlas_description/share/colcon-core/packages/atlas_description)
+[78.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw6code', 'pythonpath_develop')
+[78.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/host/src/build/hw6code' returned '0': PYTHONPATH=/home/ubuntu/host/src/build/hw6code/prefix_override:/home/ubuntu/host/src/install/hw6code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw6code/build --no-deps install_data
+[78.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw6code/share/hw6code/hook/pythonpath_develop.ps1'
+[78.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/build/hw6code/share/hw6code/hook/pythonpath_develop.dsv'
+[78.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw6code/share/hw6code/hook/pythonpath_develop.sh'
+[78.901s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw6code' for CMake module files
+[79.092s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw6code' for CMake config files
+[79.364s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw6code/lib'
+[79.368s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw6code/bin'
+[79.400s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw6code/lib/pkgconfig/hw6code.pc'
+[79.405s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw6code/lib/python3.10/site-packages'
+[79.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw6code', 'pythonpath')
+[79.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw6code/share/hw6code/hook/pythonpath.ps1'
+[79.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw6code/share/hw6code/hook/pythonpath.dsv'
+[79.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw6code/share/hw6code/hook/pythonpath.sh'
+[79.666s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw6code/bin'
+[79.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw6code)
+[79.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw6code/share/hw6code/package.ps1'
+[79.854s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/host/src/install/hw6code/share/hw6code/package.dsv'
+[79.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw6code/share/hw6code/package.sh'
+[79.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw6code/share/hw6code/package.bash'
+[79.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw6code/share/hw6code/package.zsh'
+[80.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/host/src/install/hw6code/share/colcon-core/packages/hw6code)
+[80.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atlas_description)
+[80.703s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description' for CMake module files
+[82.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description' for CMake config files
+[83.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_description', 'cmake_prefix_path')
+[83.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/hook/cmake_prefix_path.ps1'
+[83.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/hook/cmake_prefix_path.dsv'
+[83.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/hook/cmake_prefix_path.sh'
+[83.697s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description/bin'
+[83.703s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description/lib/pkgconfig/atlas_description.pc'
+[83.707s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description/lib/python3.10/site-packages'
+[83.713s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/atlas_description/bin'
+[83.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.ps1'
+[83.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.dsv'
+[83.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.sh'
+[83.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.bash'
+[84.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/atlas_description/share/atlas_description/package.zsh'
+[84.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/host/src/install/atlas_description/share/colcon-core/packages/atlas_description)
+[85.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/host/src/build/hw7code': PYTHONPATH=/home/ubuntu/host/src/build/hw7code/prefix_override:/home/ubuntu/host/src/install/hw7code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw7code/build --no-deps install_data
+[90.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw7code', 'pythonpath_develop')
+[90.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/host/src/build/hw7code' returned '0': PYTHONPATH=/home/ubuntu/host/src/build/hw7code/prefix_override:/home/ubuntu/host/src/install/hw7code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw7code/build --no-deps install_data
+[90.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw7code/share/hw7code/hook/pythonpath_develop.ps1'
+[90.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/build/hw7code/share/hw7code/hook/pythonpath_develop.dsv'
+[90.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/build/hw7code/share/hw7code/hook/pythonpath_develop.sh'
+[90.586s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw7code' for CMake module files
+[90.676s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw7code' for CMake config files
+[90.817s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw7code/lib'
+[90.821s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw7code/bin'
+[90.826s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw7code/lib/pkgconfig/hw7code.pc'
+[90.834s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw7code/lib/python3.10/site-packages'
+[90.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw7code', 'pythonpath')
+[90.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw7code/share/hw7code/hook/pythonpath.ps1'
+[90.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/host/src/install/hw7code/share/hw7code/hook/pythonpath.dsv'
+[90.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/host/src/install/hw7code/share/hw7code/hook/pythonpath.sh'
+[90.969s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/host/src/install/hw7code/bin'
+[90.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw7code)
+[91.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw7code/share/hw7code/package.ps1'
+[91.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/host/src/install/hw7code/share/hw7code/package.dsv'
+[91.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw7code/share/hw7code/package.sh'
+[91.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw7code/share/hw7code/package.bash'
+[91.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/host/src/install/hw7code/share/hw7code/package.zsh'
+[91.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/host/src/install/hw7code/share/colcon-core/packages/hw7code)
+[91.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[91.197s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[91.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[91.201s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[91.343s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[91.344s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[91.345s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[91.430s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[91.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/host/src/install/local_setup.ps1'
+[91.530s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/host/src/install/_local_setup_util_ps1.py'
+[91.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/host/src/install/setup.ps1'
+[91.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/host/src/install/local_setup.sh'
+[91.669s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/host/src/install/_local_setup_util_sh.py'
+[91.695s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/host/src/install/setup.sh'
+[91.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/host/src/install/local_setup.bash'
+[91.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/host/src/install/setup.bash'
+[91.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/host/src/install/local_setup.zsh'
+[91.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/host/src/install/setup.zsh'

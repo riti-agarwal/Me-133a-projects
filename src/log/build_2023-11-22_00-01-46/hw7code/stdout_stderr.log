@@ -1,0 +1,35 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating hw7code.egg-info
+writing hw7code.egg-info/PKG-INFO
+writing dependency_links to hw7code.egg-info/dependency_links.txt
+writing entry points to hw7code.egg-info/entry_points.txt
+writing requirements to hw7code.egg-info/requires.txt
+writing top-level names to hw7code.egg-info/top_level.txt
+writing manifest file 'hw7code.egg-info/SOURCES.txt'
+reading manifest file 'hw7code.egg-info/SOURCES.txt'
+writing manifest file 'hw7code.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/host/src/install/hw7code/lib/python3.10/site-packages/hw7code.egg-link (link to .)
+Installing hw7p2 script to /home/ubuntu/host/src/install/hw7code/lib/hw7code
+Installing hw7p3 script to /home/ubuntu/host/src/install/hw7code/lib/hw7code
+Installing hw7p4 script to /home/ubuntu/host/src/install/hw7code/lib/hw7code
+
+Installed /home/ubuntu/host/src/build/hw7code
+running install_data
+creating /home/ubuntu/host/src/install/hw7code/share/ament_index
+creating /home/ubuntu/host/src/install/hw7code/share/ament_index/resource_index
+creating /home/ubuntu/host/src/install/hw7code/share/ament_index/resource_index/packages
+copying resource/hw7code -> /home/ubuntu/host/src/install/hw7code/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/host/src/install/hw7code/share/hw7code
+creating /home/ubuntu/host/src/install/hw7code/share/hw7code/launch
+copying launch/hw7p2.launch.py -> /home/ubuntu/host/src/install/hw7code/share/hw7code/launch
+copying launch/hw7p3.launch.py -> /home/ubuntu/host/src/install/hw7code/share/hw7code/launch
+copying launch/hw7p4.launch.py -> /home/ubuntu/host/src/install/hw7code/share/hw7code/launch
+creating /home/ubuntu/host/src/install/hw7code/share/hw7code/urdf
+copying urdf/sevenDOF.urdf -> /home/ubuntu/host/src/install/hw7code/share/hw7code/urdf
+copying urdf/sevenDOF_Obstacle.urdf -> /home/ubuntu/host/src/install/hw7code/share/hw7code/urdf

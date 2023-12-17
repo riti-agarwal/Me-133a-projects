@@ -1,0 +1,35 @@
+[9.589s] Invoking command in '/home/ubuntu/host/src/build/hw3code': PYTHONPATH=/home/ubuntu/host/src/build/hw3code/prefix_override:/home/ubuntu/host/src/install/hw3code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw3code/build --no-deps install_data
+[14.789s] running develop
+[14.795s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[14.796s]   warnings.warn(
+[14.802s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[14.824s]   warnings.warn(
+[16.824s] running egg_info
+[17.296s] creating hw3code.egg-info
+[17.358s] writing hw3code.egg-info/PKG-INFO
+[17.477s] writing dependency_links to hw3code.egg-info/dependency_links.txt
+[17.557s] writing entry points to hw3code.egg-info/entry_points.txt
+[17.594s] writing requirements to hw3code.egg-info/requires.txt
+[17.637s] writing top-level names to hw3code.egg-info/top_level.txt
+[17.674s] writing manifest file 'hw3code.egg-info/SOURCES.txt'
+[19.356s] reading manifest file 'hw3code.egg-info/SOURCES.txt'
+[19.428s] writing manifest file 'hw3code.egg-info/SOURCES.txt'
+[19.501s] running build_ext
+[19.505s] Creating /home/ubuntu/host/src/install/hw3code/lib/python3.10/site-packages/hw3code.egg-link (link to .)
+[19.629s] Installing hw3p4 script to /home/ubuntu/host/src/install/hw3code/lib/hw3code
+[19.818s] Installing hw3p5 script to /home/ubuntu/host/src/install/hw3code/lib/hw3code
+[19.937s] 
+[19.937s] Installed /home/ubuntu/host/src/build/hw3code
+[19.948s] running install_data
+[19.983s] creating /home/ubuntu/host/src/install/hw3code/share/ament_index
+[19.999s] creating /home/ubuntu/host/src/install/hw3code/share/ament_index/resource_index
+[20.032s] creating /home/ubuntu/host/src/install/hw3code/share/ament_index/resource_index/packages
+[20.055s] copying resource/hw3code -> /home/ubuntu/host/src/install/hw3code/share/ament_index/resource_index/packages
+[20.177s] copying package.xml -> /home/ubuntu/host/src/install/hw3code/share/hw3code
+[20.258s] creating /home/ubuntu/host/src/install/hw3code/share/hw3code/rviz
+[20.293s] copying rviz/viewatlas.rviz -> /home/ubuntu/host/src/install/hw3code/share/hw3code/rviz
+[20.373s] copying rviz/viewurdf.rviz -> /home/ubuntu/host/src/install/hw3code/share/hw3code/rviz
+[20.445s] creating /home/ubuntu/host/src/install/hw3code/share/hw3code/urdf
+[20.518s] copying urdf/pantilt.urdf -> /home/ubuntu/host/src/install/hw3code/share/hw3code/urdf
+[20.647s] copying urdf/threeDOF.urdf -> /home/ubuntu/host/src/install/hw3code/share/hw3code/urdf
+[23.137s] Invoked command in '/home/ubuntu/host/src/build/hw3code' returned '0': PYTHONPATH=/home/ubuntu/host/src/build/hw3code/prefix_override:/home/ubuntu/host/src/install/hw3code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/host/src/build/hw3code/build --no-deps install_data

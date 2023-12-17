@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating hw3code.egg-info
+writing hw3code.egg-info/PKG-INFO
+writing dependency_links to hw3code.egg-info/dependency_links.txt
+writing entry points to hw3code.egg-info/entry_points.txt
+writing requirements to hw3code.egg-info/requires.txt
+writing top-level names to hw3code.egg-info/top_level.txt
+writing manifest file 'hw3code.egg-info/SOURCES.txt'
+reading manifest file 'hw3code.egg-info/SOURCES.txt'
+writing manifest file 'hw3code.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/host/src/install/hw3code/lib/python3.10/site-packages/hw3code.egg-link (link to .)
+Installing hw3p4 script to /home/ubuntu/host/src/install/hw3code/lib/hw3code
+Installing hw3p5 script to /home/ubuntu/host/src/install/hw3code/lib/hw3code
+
+Installed /home/ubuntu/host/src/build/hw3code
+running install_data
+creating /home/ubuntu/host/src/install/hw3code/share/ament_index
+creating /home/ubuntu/host/src/install/hw3code/share/ament_index/resource_index
+creating /home/ubuntu/host/src/install/hw3code/share/ament_index/resource_index/packages
+copying resource/hw3code -> /home/ubuntu/host/src/install/hw3code/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/host/src/install/hw3code/share/hw3code
+creating /home/ubuntu/host/src/install/hw3code/share/hw3code/rviz
+copying rviz/viewatlas.rviz -> /home/ubuntu/host/src/install/hw3code/share/hw3code/rviz
+copying rviz/viewurdf.rviz -> /home/ubuntu/host/src/install/hw3code/share/hw3code/rviz
+creating /home/ubuntu/host/src/install/hw3code/share/hw3code/urdf
+copying urdf/pantilt.urdf -> /home/ubuntu/host/src/install/hw3code/share/hw3code/urdf
+copying urdf/threeDOF.urdf -> /home/ubuntu/host/src/install/hw3code/share/hw3code/urdf
